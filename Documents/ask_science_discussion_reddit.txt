@@ -1,0 +1,745 @@
+Assuming an observer had the proper angle to view the transit, how long would it last? And would such a small object (relative to the star) block enough light to even be visible?Occasionally in sci-fi you'll see either an alien species from a world with a level of gravity different from Earth's, or humans who have lived on one long enough to adapt. Heavyworlders are usually short, stocky and very strong, while lightworlders are tall, thin, and frail.
+
+Is this how things would likely be?Assuming that an asteroid came towards the earth at just the perfect rendezvous angle to get captured by Earth's gravity and assume an orbit, how large could it be before it would totally wreck humanity? Obviously, we could get a new satellite the size of a baseball, but it would an object the size of our moon destroy us? Could the earth even capture something that large without its on orbit being changed too drastically for us and the rest of the biosphere?Considering the average 4 door, gas fuelled sedan. If I am in the car during a wind storm and trying to drive forward into the wind, what would the speed of the wind have to be to stop my car moving forward? Are these speeds possible on earth occurring naturally in nature?Let's assume we are designing a MISC instruction set architecture (Load/Store, a small number of basic arithmetic and bitwise operations, conditional jump) and for reasons of simplicity we omit any functionality to pass immediate values with the opcodes. So that all operands and addresses can only be read from registers, and if needed previously loaded from memory into a register, also from an address that is read from a register.
+Can such an architecture be useful?
+I suspect there might be a bootstrapping problem and at least some immediate values would be needed to even get a simple program to run. Could this be circumvented? At least some constants could be crafted by bit operations, such as XORing a register onto itself would create 0.Like why can't we breathe Nitrogen? Or Fluorine? Or Chlorine?
+
+Why aren't we Boron or Silicone based lifeforms?
+
+Why specifically have those 2 elements been the basis for life to form?
+
+Could we theoretically encounter a Boron based lifeform that breathes Chlorine somewhere in the universe?
+
+Or a Silicone based one that breathes Fluorine gas?
+
+Could other combinations of elements form the basis of life and support it?So I know that bugs are starting to develop a resistance to insecticides.
+
+However since I was a kid my father and me as an adult have always dealt with wasp nests by burning them off the side of the house using a deodorant can and a lighter.
+
+Now I understand that if you spray one with bug spray and it doesn't exactly kill it then it can pass on those genes that are bug spray resistant to The Next generation
+
+So if we are burning the wasps off the house and some survive does that mean that they're Offspring might be slightly more resistant to fire?
+
+And then after a few generations we will have fireproof wasps?I was just thinking about this. It's commonly thought of as "infinite parallel universes" which basically means any variation of anything exists infinitely. But I feel like that invites paradoxes. Like for instance a parallel universe where parallel universes 100% don't exist. Or a parallel universe that actually has a god who created the planets and stuff.
+
+But I know that it's called "many-world" for a reason, in that they aren't exactly infinite. So what would be the limitations to this theory? Would it be, if there's a paradox present, that specific universe wouldn't exist? I'm assuming there can't be a universe where the laws of physics are broken. But could there be a universe where humans evolved to have a sac that they pull behind them that contains all of their organs? How specific can this theory be when describing universes? [This study](https://www.science.org/doi/10.1126/sciimmunol.abg5669) published July 2021, if I'm reading it right, appears to suggest that having had prior run ins with milder common cold corona viruses is tied to experiencing milder symptoms with Covid-19.
+
+[While this study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8067214/) published April 2021, links prior milder corona virus infections to more severe symptoms and worse clinical outcomes from Covid-19.  
+
+
+Both studies reach compelling conclusions, but in opposite directions.
+
+Does anyone have any links to any larger and more recent studies?Is it mostly a philosophical debate, or does it lead to differences/debate on which types of experiments should being prioritized and funded, or what sort of theoretical and academic work should be undertaken etc.?
+
+Even if they are mostly philosophical, do these debates slow down progress in any way, or rather, just make it more interesting.
+
+&#x200B;
+
+Definitions for those following along:
+
+Instrumentalism: Scientific theories are useful instruments, and their worth is based on how effective they are in explaining and predicting phenomena/observations.
+
+Realism: Scientific theories are not merely a tool to obtain predictions, but also as a way to relate observations to an objective “truth” or “reality”. They should result in better knowledge of these objective truths, whether they be observable or unobservable aspects of the world.Asking for a friend 🤥 who's looking for a house in the mountains. In those places optical fiber/DSL connections are often unavailable and FWA is the only way to get fast internet. (If I understood correctly it's just 3G/4G so it's like using your phone as a mobile hotspot, but with a bigger antenna that's fixed on your roof).
+
+I've heard about rain fade and fog fade. How bad is it? Especially considering the severe summer storms of the maritime Alps...
+
+Can these effects be quantified? 
+
+I've been thinking about this possible future where genetic markers will probably predict most things that can happen to someone. I know there are good things that will come as well, like predicting diseases that are more common within some ethnic groups or populations and making treatment available.
+
+But unfortunately I can also picture the opposite. If there are people nowadays (supremacists as an example) who want to divide (or rank) us for the minor differences found that are related to the environmental challenges our ancestors faced, like some europeans having a better digesting of milk, east asians having less body odor and so on, so on - I can pretty much imagine other related problems as well.
+
+I can also imagine other situations not related to populations, from basic things such as "You'll have an oilier skin" and "You'll be bald for sure" , to other more daunting things such as "your academic achievements are nothing but obligation, you're intelligent because of your genetics" to "you'll achieve nothing because your genes say you're not prone to". You can imagine a lot of other information here, I'm pretty sure.
+
+In specific things such as intelligence, I truly believe (and believe here meaning from all I've read) that nurture plays a bigger role than nature overall. There's a lot of good points on both sides to be fair, but I'll lean to the theory that the kind of intelligence we value nowadays was different from the intelligence that was useful to most of humanity up until recently. Like I said, valid points from both sides.
+
+*(On the previous paragraph I'm talking about serious research, not those linked and funded by dubious organisations)*
+
+&#x200B;
+
+Obs: I've also posted it [here](https://www.reddit.com/r/self/comments/splykz/how_will_the_world_be_if_ever_genetics_are_able/hwgwj2w/?context=3) on r/self, where people told me about *Epigenetics* (which I didn't know about), interesting discussions. I decided to post it here since the community is more scientific related. I posted originally on r/askscience but they told me to post it here instead.
+
+How would the world be if this reality ever comes to be true?Forgive me if my understanding/description is off as I am not a physicist.
+
+#My understanding
+
+The delayed choice quantum erasure experiment states that using entanglement, it is possible to randomly sample the which way path information of a double slit experiment.
+
+When the which way information is not measured, the entagled photon/particle demonstrates wave like behaviour.
+
+When which way information is recorded, the entangled photon/particle demonstrates particle like behaviour.
+
+The decision to record the which way information is 100% random and not a result of human interaction.
+
+The measurement of the which way information is carried out after the entangled photon/particle has passed through the gate and after the original double slit experiment has completed.
+
+
+#My questions
+
+How does a measurement after an event has occurred, that alters the results of the initial experiment not violate causality?
+
+What would happen if the measurement of the entangled photon/particle had a delay sufficient to allow measurement of the original experiment prior to the random gate used to sample the which way information was reached?
+
+Is it the act of measurement or the fact the information exists elsewhere the reason for this?
+
+ThanksAs far as I understand, the main concern with increased levels of greenhouse gases in the atmosphere is that it keeps more energy in our system. That's why ideas like reflecting sunlight away to reduce global warming and climate change are thing, and why depletion of polar ice caps is such a big issue. 
+
+There is a lot of focus on removing carbon dioxide from the atmosphere, but why is there such little focus on storing this excess energy that it creates? Is it just less feasible physically, is it something that has been overlooked, or is it a thing and I am just not aware? 
+
+It seems like it would be a much more direct and faster approach which would begin removing the excess energy caused by greenhouse gases emitted 40 years ago, where removing carbon dioxide is only slowing down the acceleration caused by current emissions.It seems that testing for how wet someone is is flawed because more wet does not mean more aroused, people are too different based on what the body produces, unlike in erections fully hard vs semi-hard can determine arousal level.
+
+There is even a morning wood equivalent in females. Nocturnal penile tumescence and nocturnal clitoral tumescence. so one would expect them to function similarly.This question came up to me when I thought about the [long tailed widowbird](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Long-tailed_Widowbird_%28Euplectes_progne%29_male_...._%2846718360972%29.jpg/800px-Long-tailed_Widowbird_%28Euplectes_progne%29_male_...._%2846718360972%29.jpg)                                      
+
+I mean (following the Darwinian logic) at some point there was at least one female windowbird that had a gene that made it to be attracted to longer tail males, so it copulated with such which lead the offspring to have both the gene to be attracted by long tails (from the mother) and the gene **to have long tails** (from the father).                                    
+                     
+Humans on the other hand have a wide spectrum of penis sizes  (or at least that is what our modern society and maybe even marketing (?) dictates )                           
+Doesnt this prove that in our lineage the penis size was an attribute that did not matter at all and that it is just a modern construct?So I was curious and decided to look up the composition  of Mars soil. According to Mars rovers, the martian soil contains mainly oxidized materials ranging from rusted iron (which is what gives Mars its color) to silicon dioxide. So could it be possible to separate the oxygen from the soil and release it into the atmosphere to make it breathable? Would we have to heat up the planet to melt the soil or use chemical reactions to do this?Transporting goods is more complicated, but they make the city far more walkable and remove the need for cars/public transport to buy food and other daily goods.I recently watched the Lex Fridman interview with the "not even wrong" guy who doesn't like String Theory. As far as I could tell, his objection to String Theory is that it involves more dimensions than can be demonstrated to exist from observation and that trying to reconcile the String Theory results with the observable number of dimensions never works.
+
+My question is, what motivates a physicist to create a model that relies on their being more dimensions than can be observed to exist?I work at an airport in the radio maintenance shop where we have been having issues with one particular radio frequency. Essentially, the frequency works fine in the immediate area of the airport, but once aircraft are outside a certain range (10-15 miles usually) pilots can no longer communicate with the tower. Interesting however, a lower VHF frequency is able to communicate with the aircraft. After exhausting all maintenance actions with the hardware, I'm wondering if the issue could be with the fact that the inoperable frequency is the highest frequency the airport uses. The lower frequency is in the 100 MHZ range, while the higher is nearly 400 MHZ, would this make a significant difference for the usable range of the radios?Which do you think is the significance of both of these sciences that can be most beneficial in understanding the “self”?You may have noticed reddit trending page [includes a recent study on methane](https://www.nature.com/articles/d41586-022-00312-2) that seems to suggest that it's gotten (worse?). Was this predicted by the IPCC's report on climate change from last year?And, being that batteries have a limited life, is our current battery recycling ability able to keep up with the demand long term?I have a science question. On the I.S.S. they are continuesly learning about space agriculture. I know that NASA has been doing experiments and trials with soils and different types plants. My questions are, has NASA looked into self contained and sealed hydroponics systems? Other than no gravity and the proper seal of the fluids, what would be some other issues that would cause problems/concerns? If someone could let me know it would be appreciated. Thanks.I posted in r/askscience, but mods suggested I post here.
+
+
+Perhaps a stupid question, but I just want to be more aware. I am educated in social sciences and not so much in beta sciences.
+
+I just started getting more and more interested in climate change and its effects. Usually, I'd hear the same few reasons on why it poses as a thread, like how thawing permafrost releases old diseases, how the ice caps are melting, how the sea levels are rising. Only recently I learned from a comment that a pizzly bear is also a consequence of climate change and it has made me wonder what other kinds of consequences there are that I don't know of.
+
+Sorry if this question is too broad. Happy to elaborate in the comments.I am going to start my Bachelor in September this year, and am planning on becoming a biologist. As they read a lot of work others do, I wanted to prepare myself and see how studies are actually organised and constructed. Can you share some studies that a high school graduate would be able to understand? I want to familiarise myself with how they are supposed to be working. When Fusion reactors start to come online in large quantities, while the fuel supply needed to power it be an issue?I imagined an scenario in which an asteroid is going to hit earth but it hits the moon instead. Could the impact push the moon closer to Earth or would it destroy the moon first? And, how big an asteroid would it have to be?I was watching this video
+
+https://youtu.be/lheapd7bgLA
+
+And it sets up the hypothetical scenario thst the moons orbit decays over 1 year, falls within the Roche limit and is destroyed and it turned into a ring.
+
+So I suppose it makes sense as the moon is not being hurled at the earth at great direct velocity.
+
+However the time frame is around a month for the moon to be broken up. Is this realistic? Considering what we believe about the origin of Saturn's rings I assumed it happened over thousands of years but the implication seems it happens quickly.
+
+https://youtu.be/6Bv8g5xBJSo
+
+This video also implies it happens quickly in the context of saturn. 
+
+Would it also depend on the gravitational strength of the object being orbited? As surely the bigger the gravity the larger the difference between the close side and the far side? In which case I could believe it more likely to happen to a moon of saturn quickly.(Moved here after this post was removed from r/askscience and told that it would better fit here.)
+
+I've been doing some research for a book that I've started writing, and I had an idea for a star system for the setting's planet to be a part of. The star system would be a Three-Star system that used to be a four-star system (two binary star system that orbited each other), but two of the stars merged and became a stellar black hole.
+
+Is this possible? Would the combination of two stars into a black hole destabilize the star system and destroy existing planets in the system? If the star system could survive the combination of these two stars, would it be possible for any habitable Earth-like planets to exist in the system and develop life?
+
+(Story context for any that want it: in this universe, stars are basically gods, with their different classifications affecting how they're viewed by the people in the setting. The Black Hole is basically seen as a "fallen" god of darkness, and worship of it is taboo, while the other two stars are considered more benevolent.)hello good morning, afternoon or evening
+
+I am working on a project and one of the pillars is natural satellites
+
+I think that more than one has heard on some occasion what would happen if the moon did not exist, because I am exploring that scenario in which the moon does not arise from an impact of planetesimals, but is captured hundreds of millions of years later when life has already emerged and has adapted to the prevailing conditions in the world
+
+My question is what impact would the capture of a satellite have on a planet without control? Would it influence to the point of generating mass extinctions or an explosion of life? Would it modify the tectonic and/or volcanic activity?
+
+From already thank you very muchModerna is currently developing an EBV vaccine, and apparently if EBV was eradicated, MS might also be.  But could vaccinating also those that already have MS help in modifying the disease course? Is it too early to say? I would appreciate every and all feedbackWhat is a further distance, the space between subatomic particles/atoms or the space between two touching objects/the space between your skin and the air touching you around your body? I'm a Neanderthal and completely science illiterate.. but this question has haunted me. Small words please. Thanks :)Was read a book by Gualtiero Piccinini, and he had a very dense section on Shannon information. Shannon information can be created, destroyed, or conserved in noisy computation. Shannon information is reduced in irreversible computation, and conserved in logically reversible computation. Deterministic computation may only conserved or destroy Shannon information.
+
+I know typically in  Quantum Mechanics(QM), creation and annihilated operators are used. (An annihilation operator lowers the number of particles in a given state by one. A creation operator increases the number of particles in a given state by one).
+
+More to computation, Quantum gates seem to have to be reversible because quantum mechanics is reversible.
+
+Is there a domain where we can use the Shannon information of a system, or a mathematical abstraction? Or is this usually left to thermodynamics, where information takes on a more physical meaning (work, heat, information)?
+
+I would be curious on how some deterministic effective theories allow information at all, and do not lend themselves to a self fulfilling determinism. After all 3 D9 branes stacked, can deal with any use of one manifold, to use the others, to always result in a net conservation, like symmetry, which does not really possess information. Morphisms, by their definition, are mere distortions, not really physical information.
+
+It could be a domain of math or computation. I am looking for something which implies quantum information is, or is not deterministic. But I guess I should look no further than the evolutionary operator, or the lack of an absolute state reduction?
+
+Edit: Looking at Wikipedia: “The rotations that the gates perform is in the symmetry group U(2n)”. So my question maybe, are there any rotations of a complex sphere, which is not in the symmetry group U(2n)…? Seems like a trivial no.So, let's say, hypothetically, that I would throw seeds all around my city, so trees would grow uncontrollably.
+
+What are the easier to access trees and plants that would wreck havoc all around the city?I am from India (in case that's relevant) and have been trying to follow research on covid-19. Given my poor knowledge of Science and Maths, I haven't been able to read journals or research papers but read articles about the research, from both sides of the political spectrum, mostly from the US though. 
+
+Afaik, since the beginning, several things were debated - the efficacy of lockdowns, the efficacy of masks, the efficacy and safety of vaccines and the origin of the virus. The origin of virus thing was considered natural and views that said it might have been engineered by China was considered conspiracy theories. But then I found people started talking about the possibility that the virus might actually be artificial, probably a leaked virus from a lab, and that the initial investigation on the origins of covid might have been politically biased. Idk what is the consensus now or what exactly has changed.
+
+Regarding lockdowns, I thought the problem would be cost-benefit analysis that how many people could have died due to covid if there was no lockdowns and how many people died from job loss and economic troubles (I am not really talking about US or Scandinavia in this) because of lockdowns. But it whether lockdowns are effective or not had many research papers in which a TONNE of Statistics was used that I didn't understand. Apparently, both sides were extracting different conclusions. Example: 
+
+https://www.tandfonline.com/doi/abs/10.1080/13571516.2021.1976051?journalCode=cijb20
+
+In this paper, the guy finds not much effectiveness of lockdowns. One of the passages say: 
+
+> Texas, which removed all lockdown restrictions on March 10, 2021, is another very public case. The reaction to opening up was overwhelmingly negative: the California Governor called it ‘absolutely reckless,’ Dr. Fauci said ‘It just is inexplicable why you would want to pull back now,’ and President Joe Biden said it was ‘a big mistake’ and the result of ‘Neanderthal thinking.’ However, cases and deaths continued to fall after the removal of lockdown restrictions
+
+So basically, coronavirus is apparently defying common sense, at least some researchers are saying this. The Right used some research papers like this to argue that lockdowns don't work at all. Sweden was also a handy example of this. 
+
+Mask mandates, iirc, have similar problems too where there are research papers that can be interpreted to be saying that masks don't help in transmission of covid.
+
+Worse is research on vaccines which totally goes over my head since it often involves chemistry and advanced Biology while at the same time there is the whole clinical trial thing and use of advanced Statistics. Debates involving vaccines therefore, naturally, goes beyond my understanding.
+
+A common argument is that political interpretations of the papers/articles involves a lot of cherry picking of quotes and not understanding what the cause-and-effect relation is. Since I don't understand advanced Statistics, I depend on others to do the Math and come to conclusion, much like most people on this planet. My question is, therefore, what are some definite facts/information about the virus that scientists know for certain after 2 years of research now?Throughout the pandemic, I've been curious about the piles of data we've seen on COVID, like these fancy genetic lineage plots on [Nextstrain](https://nextstrain.org/ncov/open/global). Unfortunately, my background is in physics with some moderate exposure to medical imaging, so I'm not really equipped to understand any of it in any real sense. Is there a reasonable sequence of material I can study to garner any meaningful context for this stuff without needing a BS in genetics or virology? If I just crack open an undergraduate biology textbook, will I find anything relevant, or is the knowledge here really quite specialized? Thanks in advance.
+
+Edit: interestingly enough, some of this stuff also smells of computer science. [Open reading frame](https://en.wikipedia.org/wiki/Open_reading_frame)? [Coding regions](https://en.wikipedia.org/wiki/Coding_region)? It seems almost like one big fancy biological serialization scheme. Maybe that's another direction to approach it from?I’m 30 years old and just starting college. I know I want to go into a field of science, but I want to help human progression as much as possible. What are the best fields of science where I might accomplish this? I plan to continue my education past an undergrad degree. It’s never too late to get started I figured.Leonhard Euler 'discovered' Lagrange points L1, L2 and L3 sometime in the 1760s.
+
+
+Joseph-Louis Lagrange discovered L4 and L5 in 1772.
+
+
+What were points L1, L2 and L3 called before Joseph-Louis Lagrange discovered L4 and L5 ?If someone were to open the door and exit, and immediately pull back, would they survive the vaccum of space? Would they be injured or more or less fine?
+
+Would they be able to focus enough to continue holding on or would it be so unbearable that they would naturally let go?
+
+If they didn't depressurize the airlock before opening the door, would the pressure of the exiting air throw them away from the ship? If so, could they also survive the time it takes to depressurize and pressurize it?
+
+What would be the effect in direct sunlight as opposed to in the earths shadow?In a scenario that a ball with the surface area of 0.0792 m\^2 was on the ground of some desert, and it is heated to Planck temperature of 141000000000000000000000000000000 K for only a few seconds. Would Earth survive such intense heat?
+
+[https://www.pbs.org/wgbh/nova/article/absolute-hot/](https://www.pbs.org/wgbh/nova/article/absolute-hot/)Only recently I found out that all of the breathtaking images from the Hubble Space Telescope are originally black and white, and color is added later. How do scientists know what colors the stars, galaxies, and nebulas really are? 
+
+Bonus question: What are the odds that by the end of the 21st century, there will be a space telescope that can actually capture the color in the universe?Venus is 0.9 g, Mars is 0.3 g according to Wikipedia.
+
+This is a *health issue related question* due long term living on low gravity.
+
+Years, or even lifetime of living in low gravity.
+
+I'm aware Venus is hellish planet, really huge pressure and high temperature, acid rain etc.
+
+And yet, i'm confident human can came up with structure (Super strong dome) that can sustain the challenge living there.
+
+So why all the talks to colonizing Mars is somehow ignoring the fact that Mars isn't sustainable for long term stay due it's low surface gravity?I originally posted this in askscience but they said it was better suited for here.
+
+
+I know this question probably doesn't make sense, so I'll elaborate.
+
+As I understand it, the measurement of the double slit experiment seemingly "affects" its outcome. However, every example I can find of a measurement medium is something the photon has to physically pass through, meaning you couldn't just "shut off" the observation without removing the medium.
+
+Let's say we have a hypothetical measurement tool that can measure the double slit experiment from a distance. Would the results of the experiment remain the same? Would the results change depending on whether or not this hypothetical tool was turned on or off?
+
+Also, I guess this is a two-part question, too: How do we know that the introduction of an observation medium isn't what's causing the phenomenon? Like, yeah, obviously the entire idea is that observing it affects its but pouring a frozen thermometer in a cup of water would affect its ambient temperature, too. How do we know that the material we're beaming the photons through isn't the proverbial "freezing thermometer" that's interfering with the observation?
+
+I can't find a clear answer on this.Is it a coincidence that these fruits are tropical?How does everyone else organize their notebooks? What are the best strategies for efficiently taking labs-notes?
+
+Pics if you have them?
+
+I start by writing a to-do list for the day, then scribble all over it. This works, but I’m looking for ways to improve.Good afternoon,
+
+I have been researching the global carbon cycle, everything seems to make sense besides 1 aspect. I understand that once CO2 is absorbed by the ocean, it creates carbonic acid and this dissociates and the hydrogen ion binds to any free Carbonate (CO3) atoms, this then basically is what causes any deposited calcite to dissolve/the lysocline to shallow as it is trying to neutralize the CO2.
+
+Where my question comes into play is there is approximately 38,000GtC in the deep ocean and from what I have read, the majority of that inorganic carbon is bicarbonate (HCO3). In this case, how does the deep ocean eventually get rid of bicarbonate/control its levels? As calcite continually dissolves into the ocean and the carbonates bind to hydrogen and bicarbonate is of no use to ocean life does this mean HCO3 is continually building up in the deep ocean and in \~20Ky that 38,000GtC will be 60,000GtC without any harm? or is there something controlling bicarbonate levels to some point?
+
+Definitely a specific question that probably doesn't get asked but hopefully someone has an idea, thank you!This one is a question that I have heard in so many places, in different forms.
+
+It is undoubtedly true that we need space science to improve our lives, find new resources and watch out for potential cosmic catastrophes.
+
+Nevetheless, do you think that at least a half of the humanity's cosmic efforts and spendings would be enough to counter the global warming and climate catastrophes? Or, are all our means insufficient and is our positive technological might too small to cause a serious positive change?
+
+OPTIONAL: If you do have an idea of a solution regarding a specific global issue such as the climate crisis, what is it? I am aware that this is a big question; thus, you are welcome to either keep it brief or express your points thoroughly, perhaps as well while citing sources.I know to focus on getting an english certificate and good grades. But, after that, how would I go about aplying to a foreign university? What places accept foreign students? What paperwork needs to be done?
+
+For context, I go to a technical highschool. They might call them differently in your countries, but basically we get 1 more year of school, go double shifts for workshops (carpentry, machining, electricity classes etc) and graduate as technicians (electromechanical, specifically).
+
+My education is really good compared to other argentinian schools, but it's about the same as the average american highschool (plus all the workshops, electricity and physic classes like statics). My title would allow me to make the electrical installations on a small to medium supermarket, or design mechanisms.
+
+Any help is appreciated.Since the vast majority of the energy of an incident nucleon is released, in what form would the antinucleon take without violating mass/energy conservation?Good evening everyone,
+
+I ask these questions, because I attend to construct the most advanced, luxurious and sophisticated spacecraft that will bring a lot of new benefits to us and our home-world.Warning long read: Doofenshmirtz-level backstory for a fairly simple question. TL/DR at the end. 
+
+On mobile please be patient. Fake account because my brothers are on Reddit
+
+So, as a kid, I absolutely loved science. Dinosaurs, the oceans, deep space, you name it. Magic Schoolbus was a favorite, and I leapt at chances to go to the zoo or aquarium, though the Seattle science center was my true wonderland. 
+
+What's more, both my parents were chemists, and took delight in teaching me to see science in everything, and to be excited as I made connections and pathways through it all.
+
+The only catch, ironically: they were also members of a very "spirit-filled" denomination (as my mother would explain it to people) of the Christian church. On top of that, I was sent to a private school pre-k through 12, in which I was taught nothing but young Earth creationism. All my studies were tainted with it (a whole other post at this point), English, history, MATH. We had a designated Bible class, and in highschool we all took an apologetics class.
+
+Back to the point. Between 7th and 12th grade, I had one (1) person teach me science. He was a horrid person, but beside the point. That means a man qualified to teach biology, taught me life science, biology, chemistry, A&P, biotech, etc. (from horribly outdated Bob Jones textbooks, too), all from the view of an active participant in creationism academic circles. 
+
+Jump to me going to a liberal, you guessed it, Christian college. Although I was already starting to deconstruct, I had no idea just how out of line my learning was. Unfortunately, I didn't find out, rather immediately jumping into the pre reqs for getting into nursing school, so I'm now getting a much more realistic view, but on very specific topics. 
+
+Because of this, I'm now a nurse, who genuinely doesn't understand basic science. Don't get me wrong, I know the nitty gritty of biology and to some extent chemistry, but the broad strokes? Forget about it. Beyond what I've learned specifically for my trade, my reference for any "facts"  is likely either the Bible, or a paper written by my former teacher.
+
+I do not know how old the world is, although I look it up all the time to try to learn. I was told maybe 200,000 years, if we're being generous. I have never been taught about the big bang. The closest I've come was watching a YouTube video on it and getting so overwhelmed I started crying, because I was so filled with wonder, for the first time since I was little. My heart aches for that little kid, and how far they might have gotten if they hadn't been cut off from actual science. I was smart. I could have actually found something I'm passionate about.
+
+ANYWAY. Enough with the pity party, here's the slice: the more I work to disengage from my upbringing, I am finding that I don't even know what I don't know. Does anyone have any resources to learn.. any of the things I'm sure I've missed out on? Or even to identify *what* I need to learn?
+
+Tldr: was raised very religious and taught pseudoscience. Now at a loss how to even begin to learn all the things I haven't yet.Intuitively, we can generally define a solid as a collection of matter that holds its shape, and a liquid as one that attempts to take the shape of its container (following gravity) while remaining at constant density. To be a bit more scientific, we can also define a liquid (or more generally a [fluid](https://en.wikipedia.org/wiki/Fluid)) as a material that has zero shear modulus. That is, it will continuously and infinitely deform under ANY applied load, just at varying rates depending on its viscosity. 
+
+Now the problem is, this sort of definition is also arguably relevant to solids as well. Given infinite time in a zero force environment, a block of steel will tend to deform into a perfect sphere thanks to random dislocation motion. Even non-ductile materials like [granite](https://en.wikipedia.org/wiki/Granite#Physical_properties) have viscosity implying that it'll deform through time. And speaking of deformations, what about [creep](https://en.wikipedia.org/wiki/Creep_(deformation))? Creep is explicitly a solid phenomenon but by the definition of a fluid it still kind of fits. 
+
+So instead of looking at mechanical behavior, what about material characteristics and makeup? Well if we define solids as only those with a crystal structure, we exclude a huge number of what would normally be considered amorphous solids like glass and even some semi-crystalline stuff like many polymers. Hell, even butter and other "solid" fats have crystallinity. Furthermore, we also include the weird substance known as [liquid crystals](https://en.wikipedia.org/wiki/Liquid_crystal) into this "solid" definition which is clearly not a solid by any stretch of intuition. 
+
+E: also I'd like to just make the more or less controversial claim that I consider pitch (tar) to be solid. I know there's the famous pitch-drop experiment, I know that it flows, but for practical purposes I think it's appropriate to call it a solid. 
+
+Is there a one paragraph definition that can be made to definitively and perfectly define a solid from a liquid? Or are there just so many exceptions that we just have to manually assign those exceptions to some category?I was just reading up on Moderna's progress with their HIV vaccine, and  they moved on to a clinical trial. they have vaccinated about 50 people.  Now, a trial for for instance covid was pretty clear to me: after a  while you check how many people did get the virus, how sick did they  get, etc. But what I'm wondering with this one is: we already have  preventative mothods in place, like prep. With covid you did not have a  covid-suppressant possibly messing up the data. So would the people  trying this vaccine not be allowed to use prep? The articles don't go  much in detail of course. It would be pretty unethical to tell people  they can't use other preventative measures, but I'm not clear how they  can get accurate data from this, certainly with such a small group of  people?I've just went down a [Flying Pancake](https://en.wikipedia.org/wiki/Vought_V-173)/[Flapjack](https://en.wikipedia.org/wiki/Vought_XF5U) hole, and I have to say, that the craft looks structurally stable enough, to my untrained eyes, that one might be able to replace the propellers with jets and still be able to fly.
+
+Would this be feasible enough to work? Or are jets too powerful for the body style?Magnetic levitation bearing for fishing reel?
+
+TLDR: Would a magnetic levitation bearing be practical for a fishing reel for any reason?
+
+Im ready to get into fishing as a hobby and i got to thinking if you could make the smoothest possible reel with a magnetic levitation bearing. Whether or not it would be practical or commercially viable cost wise, i think that tactile improvement in terms of smoothness would give you more margins for a higher skill ceiling and not being limited by the reel. Also instead of neodymium maybe you could make an electromagnet bearing that could allow dynamically adjusted friction and record the rate/frequency of spin to train a machine learning algorithm to guess with high accuracy the weight of the fish tugging the line or even the approximate species by movement patterns(might be a bit too ambitious/grandious).
+
+P.S:
+It is almost 5AM so i might not be making much sense but i just had to get this question off my chest so i can sleep lol.Someone told me this question is best to be asked here so..
+
+Suppose earth is not orbiting a common star, but instead something like a dwarf star or a type of celestial body that had enough mass to orbit it but not a lot of light. But is close enough to a quasar that the light we see is equivalent to that of our sun. Would we get enough energy and light from the quasar to sustain life despite orbiting something that couldn't do it itself?
+And additional smaller question. If the dwarf star and the quasar were on the same horizontal axis, how long would the earth be in the dwarf star's shadow each year? Would it be completely dark? Or would the dwarf star appear like a second moon?I was playing the video game Stellaris when I thought of this. But basically, while you can control every system you can get your hands on in the game, there are sometimes games where I am powerful enough to where expansion really isn’t much of a concern. Would this also stand for real galactic nations?
+
+As your nation expands throughout various Star systems, the logistics of it all, the management, the economics, it all gets more and more burdensome. So it stands to reason that if a nation is powerful enough already, even if there’s plenty of empty space available, what would be the point of colonizing that space? If you’ve got tens of thousands of inhabited worlds, what difference does a new one make? It’s more territory you need to defend now if you colonize it.
+
+I’ve seen a lot of various maps of people’s galaxies for their stories and whatnot, and most of the time all or nearly all of the galaxy is colonized (and by usually only a few big powers). I imagine inhabited space would be divided among who knows how many thousands of nations. It’s so much that a huge empire would have a lot of trouble managing it all, let alone expand into yet uncolonized space.
+
+But then again, if there are already many smaller nations or independent systems, what stops anyone from going into uncolonized areas and setting up their own nations?
+
+So how realistic is it for a galaxy to be totally colonized? And this is assuming there is no underlying reason why an uncolonized region is so (like the Unknown Regions of Star Wars). And also, if taken from the perspective of humans, say by the time humanity begins to expand, galactic civilizations have been going for thousands, maybe tens of thousands of years by that point. Would there even be any room for humanity to build their own interstellar nation?I recently had an MRI done and found out that the technology developed in the 1970's and 1980's.  Are there some technologies being developed that will provide superior imaging over an MRI or CT scan?  Those seem like the best available imaging options we have today.   Will we ever see a technology that can give a near complete, perfect picture of the human body?Assuming we picked up all of Sol and just moved it to one, what effects might we observe? Could we even survive in a galaxy full of star formations happening? Would we even notice, or would the process be so slow ever few thousand years we just randomly notice a new star in the sky?I thought this was a fairly concise op-ed by a general columnist on the state of peer review in scientific  research written for a general audience that seemed worth sharing.
+
+https://www.nytimes.com/2022/01/28/opinion/peer-review-research-studies.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DMDmwSiOMNAo6B_EGKfadufZ4p0iqaScAEKrI0SfVoxe8aJFBwRwilud2EhJEBaW0TmL6EY1kXjdjLTKxqtnjjdHW4I-Nyg7DlsUyNbzXpRPfVgnQ-IAxj8o82cA6hxX0Kz6nAQe8jiNYpiOwzRcwvHUd2byGIvfLuDR17MMzXLU2Pr1lrBJwKHG3bjtWe6LkfcQ5NCF-gTH535Gk06do0K8pAde-kbEZmIJyi9O1XXm94L46pBIkzRZzWkNhptL3Lrh-Oyamm1hSzh8TQ7QSC08V9pHosp4w&smid=url-share
+
+How well do you think this piece summarizes issues of peer review, preprints and research dissemination for a general audience?The only thing I can think of that would result in accurate numbers would be to have a satellite orbit said object, and compare it's velocity and acceleration to estimations of the objects mass. Maybe by then measuring the mass of the earth, we could use that number to do the same thing with the earth and the sun, then use the sun to calculate planets and asteroids and such?
+
+Now that I mention it, assuming that the math and testing methods are accurate, it's probably pretty easy.It seems like there are many news articles or research papers on artificial muscles that are more "powerful" than our natural muscles but I have yet to see a functional exo suit or prostheses that operate using artificial muscles. What challenges remain when developing artificial muscles that prevent us from having functional prototypes that can rival or exceed our muscles?What's the next major medical advancement that will happen in our lifetime? Something that comes up a lot in popular astronomy is the idea that many of the images we see (say, of nebula or other stellar phenomena) of major space 'landmarks' are actually manipulated for visibility because they're either impossible to see in the visible light spectrum or so super-massive, there's no real observation point where you could park said spaceship and look out a window. So, good folk of Asksciencediscussion, where are the galactic tourist attractions for my hypothetical spacecraft?Let's consider that our planet is expected to experience a major solar event in the upcoming years (which is not unlikely). Would, for instance, France's nuclear power plants and each electronical component within them survive an immense solar storm that has a similar scale to that of the Carrington Event or greater? 
+
+Considering that some countries such as France had positioned their nuclear plants evenly around their landscapes and near the centers of population, would solar event-impacted nuclear plants cause an unexpected major catastrophe?Now, the average punch generates around 2500 newtons right? But humans punch way slower than what we are achieving in this scenario, Im just curious how much force a punch like that would generate and what the effects of the punch would be, you know, aside from the fact that a normal humans arm would be busted.Assuming you could equalize pressure when the door opened, what might happen when the exterior airlock door opened?
+
+My initial thought is that the air would rise to the top and exit as bubbles and the water would rush in at the bottom. Is this likely or would other forces be at play?
+
+In returning, I would assume the airlock pump wouldn't be able to handle purging the water, so it would malfunction. Could the astronaut ever return inside without killing others inside?Instead of where each galaxy used to be at millions or billions of years ago, we'd see their real locations. Would the two images be quite different or would the change be hardly noticeable? 
+
+Wondering if the clusters by coincidence align so elegantly into strands of filaments, or, if at that scale would millions and billions of light years make hardly any difference to every galaxy's positions from our perspective or vantage point. 
+
+[Image for reference](https://mobile.twitter.com/johan_energy/status/576887327399653377)I have read about Anapsids (no holes), synapsids (1 hole) and Diapsids (2 holes), and have seen the illustrations, but I don’t really understand what holes they are talking about. Are their brains just covered by skin/fascia in those places?  They supposedly allow for better chewing muscle attachment, but what are the jaw muscles attaching *to*, if there’s a hole there instead of bone?  And when I go to museums and look at skulls, I don’t see holes on the side of the head, like in the illustrations. What are they taking about?Doesn’t necessarily have to be related to particle physics.Humans are pursuing two technologies, neural interfaces and genetic manipulation, that might fundamentally alter what a human is.
+
+For instance people with neural interfaces might be able to use telepathy with each other or have so much control over emotion that ordinary humans seem crude. Genetically modified humans might live much longer than ordinary humans and not be able to confer that on children produced with regular humans.
+
+The technologically altered humans and regular humans might still be biologically capable of reproducing together but that's true even of cro-magnon and early homo sapiens.
+
+**What is the chance that we start regulating these technologies? What is the chance that real enhancements are just impossible or many thousands of years away?**I am a first year BS student and recently attened an event hosted by our seniors where they were teaching on how to make physics simulations like a pendulum and solar system using a programming language called Julia. I couldn't understand most of what was happening because I have no programming background and they didn't even explain so well. But it did spark a lot of interest in me to know about this field. I want to know what are Computational Sciences and how do you make Scientific Simulations yourself I want to make Scientific Simulations of whatever topics I study in my class on my computer. Where do I learn about making Simulations? What all things can I do? What are Computational Sciences and Simulations? 
+
+P.S. - I am learning Python because that is in my course.Was just thinking about the phrase "went down like a lead balloon" and thought there might be places where that phrase doesn't mean remotely the same as on Earth.I read about the making of glow in the dark trees by using the dna of some animals that glow and putting it in them eventually potentially replacing street lamps.
+
+An I was blown away. Still blown. Just wow. I want more! Love you science smoochy smooch.So I had discussion earlyer with 2 of my physics teacher at faculty, about whether the compounds of the ionic bonds should be called molecules or not. 
+I've learned during highschool that Na+Cl- will always be an ionic compound and it shouldn't be called a molecule because there is no covalent bond. Well this year, I was reminded by one of my bio-phyicists teachers (PhD) that the sodium chloride is a molecule. We had different opinions about what a molecule should be defined, but she insisted that a molecule is any atomic bond with no electric charge (thus a neutral-electric bond).
+I sought for help and all of my chemist friends told me I was right, while those physics teachers insisted the students should learn even the ionic compounds are molecules.
+What do you think, this particular physics teachers are right or, we just get a little too easy over some chemical facts?Basically the title and we make such confident claims as:
+
+\- All of a black hole's mass is concentrated at the singularity at it's center (point with infinite mass?)
+
+\- The information that goes inside is distributed on the horizon
+
+1. What does this singularity mean besides our equations returning 0 or infinity (I don't know which one)
+2. How is this singularity different compared to singularity we get when we try to solve what happens at the Big Bang?
+3. Is this another case of shut up and calculate because smarter people before you did ?
+
+Edit: Not worried about observable characteristics of black holes like light does not escape (except for Hawking radiation?)I know how long-term immunity to a disease works - you develop Long-Lived Plasma cells to keep antibodies circulating, Memory B. Cells that are ready to turn into Plasma Cells, clone themselves, and start pumping out antibodies, and Memory T. Cells that can clone themselves, go on the attack, and alert the surrounding immune cells very quickly. This is so quick and efficient that when the pathogen returns, it will be killed before it has time to make you sick.
+
+What I don't understand is why this process works so much better with some diseases than with others. If you get Measles, Chicken Pox, Yellow Fever, or Smallpox, you're protected for life. Nobody ever gets those diseases twice *(well, unless they get infected with measles, which can directly infect and destroy memory cells, causing immunological amnesia).* But you can get the cold, the flu, Covid-19 *(I think)* and other diseases multiple times. Immunity for some diseases fades after months or years. What accounts for this inconsistency? Does your body make fewer memory cells against diseases that are more mild, as it deems them less threatening? Do some pathogens stimulate a different type of immune response that doesn't result in the creation of memory cells? Why do you have lifelong protection from some diseases but not others?https://www.dailymail.co.uk/sciencetech/article-5875871/Worlds-smallest-computer-revealed-Incredible-image-shows-tiny-machine-dwarfed-grain-rice.html
+
+
+https://www.makeuseof.com/nanocomputing-can-computers-really-be-microscopic/
+
+> Nanocomputing involves using nanoscale structures to make computing processes. Nanoscale structures like protein and DNA (deoxyribonucleic acid) can be used to produce nanocomputers.
+> DNA computing involves using DNA, molecular biology hardware, and biochemistry to perform computing processes instead of the traditional electronic computing which makes use of silicon chips. Information in DNA is represented using a four-character genetic alphabet (A [adenine], G [guanine], C [cytosine], and T [thymine]), instead of the binary numbers (1 and 0) used by traditional electronic computers.
+> When applied to separate and non-sequential tasks, the DNA nanocomputer is better than the traditional electronic computer as it can store a larger amount of data in memory and conduct multiple operations at once. DNA nanocomputers are considerably faster than their electronic counterparts.
+
+So according to these articles, micro/nano computers in that sizes are really able to perform any tasks and store datas just like the traditional computers do or even better? And it is indeed possible with our current technologies that people can remotely re-program the system inside those computers, so the devices run by them can just switch to perform different tasks or move to specific environments, or upgrade itself indefinitely as the programmer desires?
+
+Is it possible that they are even able to perform tasks of building/creating a specific object by using the chemicals and substances they collected form the environment like engineering robots do?For example, say a company has some aluminum to turn into a engine block but they want it to be really strong. Is there any kind of nanotechnology that can be used to make the aluminum stronger?I guess it was pretty loud.Hello everyone,
+
+I’m 22 years old in and I’m about to move from Romania to America for medical purposes.
+
+And I wish to study Holography, Physics, Quantum Physics, Quantum Mechanics, Astronomy, Mathematics, Chemistry, Robotics, Biology and Anatomy. Because, I want badly to be a scientist.I hope this is the right place to ask this. If the distance between two objects is shortened as"something" approhces the speed of light, then how far would say Pluto be from Earth to an "object" that is traveling 99.9999999999% the speed of light? If the distance the object has to travel is lessened, then the object gets to its destination faster. Ok, so then wouldn't the distance that light has to travel to any place always be 0? Wouldn't light get to any place in the universe always be instantanious? If that is the case, then how is it that it still takes time for us to experience the detection of light, like from an exploding start?Hello everyone,
+
+I wish to construct a laser with ability to cut and stick any metal smoothly without making sparks while cutting it. 
+
+Personally, I can’t afford to get one for myself from shop. Because, my parents don’t think it’s worthy of buying or something like that, so I thought what’s wrong if I construct one if buying is not possible?
+
+And I was wondering, what type of science do I need for me to achieve this? Do I need Quantum Mechanics and Quantum Physics?
+
+I want to express my intelligence, creativity and imagination.Why is formal education seemingly the only way to enter the scientific community? Wouldn’t the community at large benefit significantly from doing apprenticeship programs?It seems like every other half minute an article/study like [this](https://apnews.com/article/climate-floods-science-environment-and-nature-42655c2d26ebef9f76383a59bd1e6df0) one comes out, notifying us that, actually, we have even more to worry about when it comes to the environment. It's pretty disparaging for someone who already has anxiety. According to the post i got this study off of, climate change since the 1980s is apparently "twice as bad" as previously thought.
+
+ Has there EVER been a counterexample to this that hasn't been disproven? To clarify, I don't mean "various people are working to counter the thing" more along the lines of "the thing is actually not as bad as we thought".This has been buzzing around in my head for s while, but based on the fact that some of the most fertile lands on Earth are near volcano’s would this make Volcanic Planets ideal Bread Basket worlds with the appropriate technology?Talking about these:
+
+[Album of images](https://imgur.com/a/W8eyoh4)
+
+Without special goggles or eye implants these would be impossible right? Since there is no actual way to focus light in 1 specific spot in the room suspended in air. You would have to reflect it somehow using the entire room, or as mentioned before wear goggles to see them (Pretty much AR).
+
+Could you focus light in mid-air in 1 specific point?I was reading a page on the Paris climate agreement and noticed it does not have a time limit on its 2 degrees celsius. This would mean for the whole of our existence we must stay below this warming relative to pre-industrial temperatures.
+
+This is crazy! I am unhopeful that this is possible.
+
+Also, who are the leaders/organisations behind climate predictions?So, I've been watching Fringe and one of it's splash screens is a six fingered hand, and for whatever reason it has caused me to think about this question. I have a feeling that the sixth finger were like non-thumb fingers, there wouldn't be too much use for it. But, would a second thumb at the other end of the hand be any more useful than the other kind of extra digit?I was watching an episode of the TV show [Space Force](https://www.imdb.com/title/tt9612516/?ref_=tt_ov_inf) and it had a scene where two of the chracters talked about how if they had kids together, they would be [most separated genetically](https://m.imdb.com/title/tt10572530/?ref_=tt_ep_nx) and that got me thinking, is there a way to find this out in real life? I know that if you just tracked your ethnic roots backwards and just measured the distance from each other you could guess but is there a more scientific way? For example, can I compare my SNPs and find a person, or group of people, who I can point to a reliably know our family trees haven't been together in mutiple generations?The sun is probably the MVP, the GOAT feature. But are other features, for example, that Jupiter soaks up most asteroids to stop them smashing into us? Is it our moon? Is it the magnetosphere that protects us from radiation? I get that it's a little of everything but if you had to pick a top five...Hey scientists!
+
+As an incoming engineering student, I have been trying to educate myself about climate change, renewable energy development, and where are the industries at (both traditional like oil & gas industries and the solar/wind/PV etc. industries). I am ashamed to say how late I am to realise the importance of taking action asap and stop fxxking up our own Earth, and I don't think our next generation deserve such a messed up place.
+
+Meanwhile, some of the closest people I know are oblivious to the pressing issues in energy harvesting and the political manipulation behind the scene.
+
+Are there any professionals or students in relevant areas be able to tell me what are the most pressing issues we are facing, how bad is the politics affecting the industries, and how would you explain that to people who still do not recognise the issues?
+
+Cheers!I was recently reading about how orbits can change the direction of asteroids that are hurling towards us, so it got me thinking can we slow down the Earth’s orbit? Since Earth is massive, how many spacecrafts of what size would be required to slow down the Earth’s orbit? I also understand the Moon is already slowing down the Earth’s orbit. 
+
+Note: Please consider me a very beginner if you’re explaining any tough concepts, or any good links you can point me towards. Thanks in advance.Because black holes convert all mass i to energy via E=mc^2 [(black hole evaporation)](https://en.m.wikipedia.org/wiki/Hawking_radiation)
+What happens to chemical energy in an object?
+Example: 
+-	I charge up a big lithium ion battery, it now has a ton of chemical energy
+-	I throw it into a black hole
+-	the black hole gains the mass of the battery in energy, where does the stored chemical energy go?
+Common sense says that the energy was not lost, but by what method is the energy retained? The battery is electrically neutral, so it wouldn’t go towards charging the black hole electrically
+
+I am unsure.I'm a senior high school student and will choose my path this year, I do love Biology as a whole and Molecular Bio&Genetics is the most improved and the highest ranked bio degree here in Turkey, but I want to live in another country after graduating for better quality of life and more importantly for better potential on research. Now whenever I search the net people say it's now almost impossible to find jobs with a Bachelor's and so hard to find well paid jobs even with Master's, which countries would be a recommendation and should I do what I want or is this degree as dire as mentioned? I could shift off into medicine which has better standarts and all that and I could then master in Molecular Bio as well but that means I'll know less about Molecular Bio and the College won't be as fun.. I'd love some adviceI know that building an artificial river would be very costly and also need a source of water. But If we did that by opening up lake eyre to the ocean, with a large enough opening so that the tides can cycle the water faster than it can evaporate, and thus create more evaporation and rainfall on the great dividing range, would that increase how much water the rivers there could hold? And if so, could it create new smaller permanent rivers (if we carved out a path for it to follow so it doesn't flood everywhere)? And if all that succeeds (if its even possible), would it expand the habitable eastern portion westward, or would it cause even more problems?Just curiousOkay, so 300 years ago, disease was known to be caused by bad air (Miasma Theory of Disease). This theory had been useful for hundreds of years and the data supported it. Some crackpots along the way suggested that maybe disease was caused by tiny invisible creatures, too small to be seen. But these guys were crazies, on the fringe. They were practicing pseudo-science. No one took them seriously.
+
+Then in the 1800s, we started noticing that this weird germ theory might be worth looking at. Over time, and against a great power structure, miasma Theory fell out of favor and was replaced by Germ Theory of Disease, which is still the best explanation today for many illnesses in animals.
+
+Imagine what it was like to be a proponent of Germ Theory in 1850 or sometime thereabouts. You'd be the target of ridicule. Your papers wouldn't even get considered. No one would read your book. There was an entire industry of healthcare built on the Miasma Theory that wouldn't stand by and watch you tear it down with nonsense theories like germ theory. Doctors who had practiced medicine for 20 years would have to go back to med school. Clinics would have to shut down and rebuilt with new equipment. Nurses, engineers... So many people would become unemployed and useless if we adopt your weird theory about invisible creatures that invade the body. And no one has seen these creatures, so why should we disrupt such a massive enterprise to consider your backwards theory???
+
+My point is that scientific consensus is very slow moving, especially when there's money involved. If someone learned that an existing scientific consensus was wrong, it might take a lifetime or two to get serious consideration.
+
+Did Louis Pasteur face this kind of pushback? Did Isaac Newton get laughed out of classrooms for his hypotheses?
+
+Today, there are tons of crackpot theories like astrology, homeopathy and others who all claim that their work is similar to other early scientific discoveries. How is astrology different than germ theory? Sure, we can't seem to find a mechanism whereby the planets/stars would impact human behavior. But maybe we just can't detect it yet. Maybe the planets or stars emit some kind of radiation that we can't detect yet. Maybe that radiation impacts human behavior in some way. I'm not saying I believe in astrology, but it's what astrologers say. Sure, some (many/most) of them are hucksters just making money, but there are definitely folks out there who truly believe that astrology is real and the position of objects in the sky has an impact on behavior/events. They might admit that we don't fully understand how it works just yet, but they'd argue that the results are there, even if we have yet to discover the mechanism.
+
+I guess I'm just asking how are current pseudo-sciences like astrology, homeopathy, naturopathy and others... How are they different than what Germ Theory was in 1800?See, for example, https://www.mdpi.com/2073-8994/13/3/517I was sent here from r/AskScience.
+
+ I am reading about black holes (not in English) and am a little confused.
+
+Objects inside the ergosphere are pulled at a rate faster than the speed of light, but they are also static to time-space outside the ergosphere?  And this “contradiction” produces negative energy inside the ergosphere?
+
+Am  I understanding this semi-correctly or does this look like gibberish to you scientists here? I am mainly wondering where the negative energy  comes from.
+
+Thanks.I find vaccines, immunology, and viruses to be really interesting, and I read up on them for fun. So naturally I spent a fair amount of time reading up on smallpox, because it's one of the deadliest viruses, and I'm always interested in how pathogens are able to fight back against the immune system. Also, I think smallpox is interesting because it's the single most successful example of vaccines in action. We eradicated it, after all. But now that I've read about it, a few things don't quite make sense to me. They are as follows:
+
+1. How does smallpox evade the immune system? I mean, anyone who's not immunocompromised is born with Killer T. Cells that can recognize and destroy cells infected with smallpox, Helper T. Cells that, when activated by Dendritic Cells, will coordinate your immune response, and B. Cells which, when transformed into Plasma Cells, will produce antibodies specifically calibrated for smallpox. For smallpox to be fatal thirty percent of the time, it must have some very effective tricks up it's sleeve to counter the immune system, and I'm curious what those tricks are.
+2. How does smallpox actually kill you?
+3. The first vaccine for smallpox was cowpox. The modern smallpox vaccine is the vaccinia virus. Why did we switch from cowpox to vaccinia?
+4. According to [the CDC](https://www.cdc.gov/smallpox/vaccine-basics/index.html), the smallpox vaccine only protects you from smallpox for three to five years. Yet from everything I've read, getting smallpox once bestows **lifelong** immunity. This is why people underwent variolation - they knew that if they could just survive smallpox once, they'd never have to worry about it again. Is the vaccine for smallpox really **that** much less effective than natural immunity? And if it is, how on earth did we ever eradicate smallpox with a vaccine that wears off so quickly?
+5. From everything I've read about the way cowpox was used to vaccinate against smallpox, cowpox gave lifelong immunity, while vaccinia *(the modern smallpox vaccine)* does not. So why would we switch from cowpox to a much less effective vaccine?
+6. Why can't people with eczema take the smallpox vaccine?https://en.wikipedia.org/wiki/Tetrachromacy#Humans
+
+Depending who you ask, possibly up to 50% of women have some ability to distinguish colors using four different color cones. There's disagreement over exactly how many people have tetrachromacy, and it seems that there's a lot of variation in how strong the effect is for different people - so I accept it's hard to make any solid statements about this; happy to hear informed speculation or just personal experience if that's all that can be said!
+
+The question is, given color display devices represent color using three color channels (red, green and blue), how do these devices appear to people with tetrachromacy?
+
+For example, some thoughts/prompts:
+
+* Do the images just look flat because there's a whole distinguishing character of certain colors missing?
+* Are there any tolerance variations in manufacturing that mean what is supposed to be a solid consistent color actually looks dappled/speckled/something?
+* Does anything change as devices age?
+* Do the same image on different displays look different, or is whatever effect there may or may not be pretty consistent between devices?A big enough water initially made only of H2O, with a water vapor atmosphere, liquid water ocean and ice below.
+
+Is it possible that live could develop on such a planet? Can life result from lightnings creating amino acids or other chemical reactions? Or can the components needed be brought from asteroids falling on the planet?And could that orbit still yield a habitable planet due to tidal fluctuations?My d&d group have been playing for years and I would like to create a unique setting without resorting to "because magic" for everything that makes the word different. 
+
+I am currently looking at using a planet that is tidally locked, but would like to learn of more things like this.It's not like weight or energy density is much of a concern for a stationary battery farm.
+
+Edit: I really had storing energy from a solar farm when it's cloudy in mind, so more short-term stuff like flywheels isn't what I was comparing to.As above. I'm looking for a book or study that actually gets into probabilities and evidence for specific climate change related consequences. Ie, we predict with 85% probability a reduction in yields of x crop by y amount over the next 10-20 years. I've heard that David Wallace-Wells' *The Uninhabitable Earth* is this book but then I've heard others say it isn't scientifically rigorous. 
+
+Partially I'm asking for this because I'm trying to figure out if the scientists are correct who say it will be bad, or the scientists who say it will be a population bottleneck for humanity.I apologize if this isn’t the perfect place to ask, I was torn between a few subs to ask this at. Also using a throwaway because I’m weirdly embarrassed about this question? It feels silly. 
+
+I know, as a general overview, the NS Savannah (and most of those like it) succeeded on a fair level, stopped mostly by the regulations around nuclear powered passenger vessels and troubles getting permission to dock in certain places and a few other design details that are besides the point of the fuel functionality. 
+
+I couldn’t help but wonder though, with nuclear powered submarines being relatively common for military use, what other vehicles could be nuclear powered? What if nuclear power was suddenly not seen as such a scary thing and was more commonplace?
+
+Could we make an aircraft that’s nuclear powered that could theoretically travel the globe without needing to stop for fuel? A blimp maybe? Could a type of train potentially be nuclear powered in a similar way? (Obviously needing to stop for other reasons, but I mean just energy-wise)
+
+The politics of it is completely unrelated, but I’m mostly just curious for what others think about the functionality of nuclear powered vessels as a means of fuel. I don’t feel like I know anything about the size, weight, power output, or scale of any sort of nuclear reactor, so I wanted to ask this hypothetical. Thank you.For those who haven't seen this https://www.newscientist.com/article/2301500-human-brain-cells-in-a-dish-learn-to-play-pong-faster-than-an-ai basically I'm interested in a relatively low level view of these cells and how they interact, is it literally just a big blob of neurons or are there higher level structures at work?
+ThanksI can see a lot of articles citing that 20 seconds has proven to be the "optimal" time for handwashing, but i can't find the specific reason why?
+
+I know that soap particles penetrate and destroy bacteria, but is the 20 seconds to ensure the soap has time to completely kill the bacteria? 
+
+Or does the killing happen pretty much instantaneously but 20 seconds of continued handwashing makes sure that you've gotten into all the folds of skin and any other places bacteria could be hiding?I'm currently sitting in a curbside delivery parking spot, watching the spot number sign vibrate in the weighted tube that keeps it from flying away in the wind. It occurs to me this is pretty much exactly how the new bladeless wind turbines work. Would it be possible (and easy enough) to use this already-existing "turbine" to generate energy-- say for the store or to charge electric cars or something?
+
+Years ago I remember listening to a podcast about this very discussion, it’s been awhile and I haven’t been able to find it so I may not remember all the details they talked about. The basic point was that we as humans are now quite capable of making it to 100+ years old more and more frequently then ever before in our history and the doctor/scientist who was on was talking about how it’s not as good as we think it may be. He talked about how With modern medicine, health care, and human living conditions we have today we are able to extend the life cycle of major systems like the respiratory the circularity and our brain as well. The point he was making was that we may be pushing our body’s past the natural human life span, while those organs and systems benefit our body’s still get frail our bones get frail and our over all physical health deteriorates at old age. He then mentioned how it could be quite miserable for some people living for an extra decade or two with their body in such rough shape. Was the human life span ever meant to be 100 years or so or are we pushing too far past our natural limits nature has set out for us? This is a topic I find very interestingI'm assuming friction, structural stresses at high speeds as well as the process of transferring energy to and from an already very fast spinning object might be limiting factors - but apart from these, what prevents us from "simply spinning the wheel faster" to store more energy?How much do thoughts affect our cells/bodies?I have been thinking about this for awhile now and people I've asked haven't been able to give me a definitive answer..
+
+so for instance, horses are shaped like : 
+
+goats
+
+gazelles
+
+elk
+
+zebras
+
+cows (debateable)
+
+rams
+
+ibex
+
+moose
+
+deer
+
+buffalo/bison (also debateable if cows passes)
+
+donkey
+
+I probably missed one or two. So when you think about it all these animals are basically shaped the same. Their skulls kinda do the same things except with varying eye placement. All with hooves(hoofs?) and walk with four legs. 
+
+&#x200B;
+
+Okay so cows obviously have a completely different bone structure than a horse and are more square if anything, but they do fall under the hoved four legged walker part of the checklist. This definetly broadens the possibilities which is why I think it is important to discuss. Cows are still horse-ish shaped with the way their bodies and skull is shaped. They are just short and stocky. Well I suppose they are called bovine. Are bison bovine?
+
+&#x200B;
+
+So my point is, is there a general scientific term for animals shaped like horses and can you share that information with me?
+
+and side question, if we include cows and stuff does that even extend to pigs and stuff? Cause again I mean they have hooves and 4 legs. They have no neck to speak of but you know what I'm saying? How do we term all those animals and then the other quadrapeds that have paws. I was thinking that dogs (like lab sized) sorta look a lot like horses too. Although that is stretching it farther than it can already go at this point..
+
+&#x200B;
+
+But yea! I would really appreciate a discussion or some answers. Thank you!Since it’s almost black history month, I was wondering who you would consider to be the most prominent/successful black scientist of all time(of any country)?I've read that a photon leaving Earth today can only reach 6% of the galaxies in the visible universe (the estimated amount of galaxies within an 18 billion light-year radius) since dark energy is carrying away the other 94% of the galaxies faster than the speed of light.
+
+Is there some website that allows you to enter a percentage of the speed of light and see what radius of the present day volume would be reachable at that speed, and as a bonus what percentage of the galaxies in the visible universe are in the associated volume?
+
+If not, what are the equations to calculate that?Is the moon hot or warm because there isn't any convection to cool the sunlit rock and it takes so long to radiate away heat as infrared? (edit: on any parts where the sun recently shined on the darkened side of terminator) 
+
+Would any part of the moon be visible with an infrared lens? (The parts facing us yet darkened) 
+
+Can we see parts of the moon's 'dark side' by viewing its infrared light from the farthest angle on Earth?I've heard of many different methods cops can log speeds including tailing in their own car. Are there any guidelines for what data is admissible in court and is there data available such as calibration records and stated accuracies?I imagine before the 'discovery' of fire early man still ate meat and it would have been raw. Can we pinpoint this change in dietary restriction during the evolution of man to where we are today?Cicadas burrow underground for 13 or 17 years, then emerge for their mating season. If a decade-long nuclear winter occurred while they were underground (killing all/nearly all human and plant life) and ended pre-emergence, A. Would they survive and successfully emerge, and B. Would they be able to parent the next generation? 
+
+Obviously they wouldn't survive if they're in a nuke's blast radius-they'd be incinerated instantly, no question about it. I'm specifically asking if they'd survive the aftereffects of a far-off nuclear war that was strong enough to blot out the sun for 10 years. This includes effects other than the winter itself, such as the radiation and mass dieoff of plants.Clearly this is a bit speculative, but I'm wondering if we have any idea from either theory or, even more interestingly, past examples of isolated populations.If I connect a battery to an ideal short circuit with no electrical resistance, there shouldn't be any electrical energy output, as the voltage is 0 (according to Ohm's law). But where does all the electrochemical energy go? Is it all converted to heat?I've heard people argue that science needs to be based on experiments. While experiments are an important element of many fields, this does not seem to be always true. For instance in climate science and astrophysics, we instead rely largely on observational data. What are other fields, where the use of experiments is limited?I'm curious whether most stars have about the same amount of planets as our own Solar System or is ours more unique in that regard. Also what is the least and most amount of planets that a star system can generally have? (Excluding things such as small satellites, asteroids, and dwarf planets.)Hi. I love r/askscience (and r/science). I was telling a friend that Reddit is much superior to Quora at getting questions answered and I was asked, "How do you know if the people responding know what they are talking about?" I said that I didn't know but it felt like there were quite a few educated people writing very complete and well-worded answers.  
+
+
+This has me thinking:
+
+\- how many of us are academics and still involved in science research?  
+\- how many are science researchers at non-academic institutions?  
+\- how many are science majors who are working in unrelated fields, but still maintain our interest in science?  
+\- how many are not science majors, but are self-taught and/or passionate about science?  
+
+
+I came here to make a poll, but it seems like polls aren't allowed. Anyone have any suggestions on how I can figure out our make-up here?My understanding is the vast majority of the $10 billion cost of JWST was in the extensive research, design, and development over decades.  Now that the design has proven to be successful, couldn’t we build another one (or two) for a fraction of the cost and deploy it to do twice the science or is there some reason why that isn’t feasible?  Just seems like if you have already done the R&D and have a successful blueprint, why only produce a single unit?I'm asking this question, because I think that many of us would like to have an easy way to read new medical findings.Is this common place? What steps can we take to determine wether or not study’s we are reading are biased?If NASA pointed the JWST at Earth, what kind of resolution would it be able to see?
+
+I understand there may be some limitations due to it being an infrared telescope, but I'm just looking for a ballpark figure of an analogy. How well could it perform the functions normally given to a spy satellite or one of the NOAA climate satellites? What kind of resolution could we expect in that case?
+
+
+As a follow-up question, won't there eventually be a point where L2 is between Earth and the sun, and are scientists planning on taking a picture of Earth, for PR if nothing else? I've  long wondered how the different varieties of certain mineral types form  and understand we dont always know, but in many cases, we do know the  specific chemical or component minerals that make up something new.
+
+What I rarely seem to find is any research on how the specific components were brought to the site where formation occurs.
+
+For  instance, Fairburn agate is cited as having its colors present due to  trace amounts of minerals like hematite and goethite among others, but  how did that combination of elementa come to that location? Did a meteor  provide the iron? Did a nearby lake or river wash minerals from other  areas?
+
+I ask because I also wonder  what a massive deposit of modern materials, say a giant pile of  millions of vulcanized rubber tires, would add to the environment and  which chemical elements there might contribute to mineral composition in  the future.I found that this drone is very interesting thanks to its magnificent maneuvering system. But it makes me a little bit confused like how the hell would those 6 propellers maneuver it in mid water. In my opinion, it is gonna require tremendous down forces created by the 4 propellers to dive and keep it in mid water, not to mention to go around and spinning 360 degrees as well as rolling upside down like in some youtube videos. How can it stay balance in mid water using those 4 propellers? Does it even have a ballast tank to dive and float?. It is clearly not very much possible but somehow, the producers successfully made it. Can anyone help me to understand its maneuvering system because i'm an enthusiast learner.Assuming I have subscribed to the relevant journal and/or have institutional access, because I definitely *don't* use sci hub Is this just about technology or what am I missing out on here? Sorry  for my ignorance but physics and the universe were never my thing.This is something I've wondered for a while now.  *If* it is indeed possible to create warp bubbles for FTL travel and some other advanced civilization is out there using that technology to explore the universe up close and personal, would our telescopes be able to see signs on it? And if so, what would it look like?Was there a single person who was the first to have Delta/Omicron?Obviously anyone can run something like folding@home and that is contributing. And anyone could discover a new bug and tell an entomologist about it, or just get a bunch of money and start handing out grants. But what about these examples, or others like them?
+
+1. Joe has a big backyard and a lot of free time so he builds a particle accelerator. He designs some experiments and documents them rigorously. He discovers the answer to some interesting and important, but not world-changing question. Joe submits a paper to *Nature* or a talk to a conference. His methodology is sound, but his writing style is very casual and he has no degree. Does the paper get accepted?
+2. Same as above, but Joe has half a billion in the bank and a lot of Twitter followers.
+3. Mary has no backyard but great social skills and a very long-term mindset. She somehow organizes an incredibly wide-ranging survey of thousands of people about an under-studied topic. She makes every effort to avoid bias in her methodology and documents everything excessively knowing someone else may spot problems she isn't aware of. Does her data make it to a researcher who can use it, or does it sit on Github with two stars?
+
+I promise I'm not building a free-energy machine in my garage and calling myself a "natural philospher". I'm curious about the actual logistics of how scientific knowledge is disseminated and incorporated into the community today. Especially in light of things like the replication crisis and the [airborne particle size](https://www.wired.com/story/the-teeny-tiny-scientific-screwup-that-helped-covid-kill/) mess, or any of the countless other times that the science had already been done but wasn't disseminated or accepted until much later.
+
+___
+
+**EDIT / TL;DR:**    
+
+Really grateful for all the responses, this is genuinely one of my best experiences on Reddit in years. Here's a very broad (and incomplete) summary of what I've learned from responses:
+
+1. MOST IMPORTANT: Do not joke about building a particle accelerator, nobody will know you are joking.
+2. Likewise, if you don't view the scientific community as malicious, make that clear because many people do.
+3. Publishing to a journal or submitting to a conference can actually be really expensive, even charging per page!
+4. You indeed are more likely to have your work ignored without name recognition - scientists are human, and peer review is unpaid
+5. The solution to getting your work recognized is generally to seek out experts and talk to them and share your data/results directly.
+6. The easiest, most realistic way to do a science is with observational science rather than experimental science.
+6. Though if you have more money than a grad student, you can probably duplicate their experiments because they're all broke.
+6. You don't need to even do an experiment or submit to a journal, you can just [check other people's work](https://www.reddit.com/r/AskScienceDiscussion/comments/sbs6bd/can_a_layperson_realistically_contribute_to_the/hu4pvii/) yourself by reading published papers and checking their possibly out-of-date citations.
+7. Astronomy is basically made up of grad students, Neil deGrasse Tyson, and thousands of people with telescopes in their backyards
+8. [Anyone can think about math for free](https://www.reddit.com/r/AskScienceDiscussion/comments/sbs6bd/can_a_layperson_realistically_contribute_to_the/hu38fap/), they can't stop you.
+
+Interesting links:
+
+* [List of citizen science projects](https://en.wikipedia.org/wiki/List_of_citizen_science_projects)
+* [Published paper about cats sitting in illusory boxes](https://www.sciencedirect.com/science/article/abs/pii/S0168159121001258) based on pandemic citizen science. Note that only 30 out of 500 completed the trials, citizen scientists are unreliable!
+* [Avoid the nazi stuff](https://www.hhs.gov/ohrp/education-and-outreach/online-education/human-research-protection-training/index.html)
+* [Paul Stamets](https://en.wikipedia.org/wiki/Paul_Stamets)
+* [50 years of hobby data collection](https://www.washingtonpost.com/nation/2021/11/27/colorado-rockies-snow-climate-lab/) turns out to be really useful for studying climate change
+* "Medical doctor Donald Unger [cracked the knuckles](https://www.reddit.com/r/AskScienceDiscussion/comments/sbs6bd/can_a_layperson_realistically_contribute_to_the/hu4hayw/) of his left hand every day for more than sixty years, but he did not crack the knuckles of his right hand. No arthritis or other ailments formed in either hand, and for this, he was awarded 2009's satirical Ig Nobel Prize in Medicine."I've  read endlessly that scientific careers like physics  and math are well  paid and in high demand, but this doesn't seem to be true in real  life. My professors who studied a scientific career do not live very  well, only a few. Several students who study physics  and  mathematics always say that they end up programming or in banks.  And  this happens even in the countries that are developed, it is not  only  an issue of the so-called poor countries.  Why not have taken an  easier  path like studying only economics or something more technical? Why don't they say that no matter how hard you try, because of  population  size and other factors, you probably won't end up making discoveries or studying about the subjects that you spent 3-4 years of your life studying  and earning a salary that provides a good quality of life? **Is there really so much demand for bachelors of pure sciences? And if not, why lie?**
+
+I hope no one feels offended by this question. It is only perhaps a criticism of the economic or university system. If a planet is tidally locked to its host star (such as TRAPPIST-1), it would be permanent daytime/twilight/night depending on where on that planet.
+
+But what if we had a planet like Earth tidally locked to a star (or an artificial radiation source) that is bright during the day and dim (or black) at night?
+
+What would, in best case, happen to that planet? How much of it would be habitable?
+
+
+(Inspired by reading about a fictional fantasy world where the "sun" almost doesn't change position relative to an observer, but it changes brightness to make a day and night cycle.)So as the title says that's my aspirations in life and I have a general idea of what I'd like to do with it but is anyone able to tell me who works in that field able to tell me what kinda work do you do just to see if it truly is the perfect career choice for me. I just really wanna travel abroad and just do stuff with animals and protect species so is it a viable career pathUnfortunately the schools in my area do not have any forensics programs or paths do a bachelors. Wondering if chemistry or biology would help me get a foot in the forensics field?There's a saying "shoot for the moon and if you miss you'll land among the stars" which is a cute cliche for a desktop motivational calendar, but also ignores the fact that the closest star is trillions of miles away.  
+
+But that got me thinking... if you just shot yourself out of a cannon in space and went hurling through the cosmos at a velocity as fast as possible while still safe for humans to travel... is space so profoundly empty that you'd likely make it to the star untouched?  or are you definitely colliding with some sort of debris on the way?  Or is it somewhere between those two extremes?
+
+EDIT: in this scenario... the cannon is aimed directly at the star you're trying to get to.  Let's say Proxima Centauri so it's a nice quick trip.If a human is submerged fully in liquid oxygen, can he breath? (Assume he doesn’t die of the cold temperatures)I was doing some research about the cardiovascular system of blue whales and realized how big their arteries are, some of them possibly big enough for a human to fit inside. It got me thinking, could a human actually swim and stay alive in a pool of oxygenated blood? Or would you not be able to take in enough oxygen?I've seen some youtube videos of people talking about finding pupas in their garden, but I'm not sure if that means digging deep into the soil or looking closer to the surface. 
+
+I don't really care which type of insect, my kid just really wants to see a pupa and it seems way more educational than if he watches another pupa video. Any suggestions? I live in Michigan, zone 6b. '
+
+Any suggestions are appreciated!This is just speculative, I am hoping somebody knows more than I do and is interested in teaching, hypothesizing, etc. If I write something that I've heard about, it is just that I'm trying to inform any readers or responders as to where my personal level of experience is at. If I'm dead wrong about something, please correct me. If my source material is lacking, please kindly inform me about what you, personally, are interested in finding or reading my source material, and I will divulge any details asked for. Thank you
+
+I was told Hawaii gets most of its power from a coal fired plant. I thought somebody might be able to verify this, who is better at looking stuff up. It seems much of the world is currently in energy transition, and I fear that I might dig up some no longer up to date info. Mostly whenever I look it up, I'm just finding articles about how Hawaii is a part of some energy alliance and plans to stop using coal.
+
+I was living on the big island for a while. I remember being surprised at not hearing about any massive solar arrays as I had thought sunlight gives more energy in the tropics, i.e. that near the equator, the sunlight is stronger. Am I wrong about that?
+
+Two more observations that I have to make.
+
+1. Every time it rains so much water falls down the mountain that hydro electric seems apt for rainy days. I mean, a massive river's worth of water pummeling very fast down a steep mountain. I couldn't even estimate the math on this, but out looks at least half the size of the river they get hydroelectric power from near my hometown. AND in talking about waste water, I think it lacks any ecosystem that can be harmed through hydro electric.
+
+2. I've also heard about Tokyo using tanks of water to hold water sea water, which gets drained out during the evening in order to gain electricity back. This sort of system seems like it could be used on a place like Hawaii. Drainage water alone can be captured, and a tank and generator I think would replace high battery maintenance costs.
+
+What do y'all think about that?Just a random thought experiment.For example an electron absorbs a photon, jumps an energy level, immediately absorbs another photon... would the 2nd photon have to be a different wavelength than the 1st photon? 
+
+From what I've learned so far, it seems the answer should be yes, the 2nd photon needs to be a ~~shorter~~ longer wavelength because the higher energy levels are closer together and therefore an electron needs less energy to make those jumps. Is that correct? 
+
+Edited correction, thanks u/DericeI was doing some thinking about how heat transfers from one object to another (it’s snowing so it got me thinking) and I came up with an idea
+
+Let’s say you take a steel cube at room temperature, then put it in a box, made entirely out of one way mirrors shiny side out (so they reflect away from the box) and then pull a perfect vacuum in the box. Btw, the outside world is also room temp
+
+My thought is that, the heat will just radiate away, go through the vacuum, then though the mirrors. The heat has now left the box, and if it reflects back at the box, it just bounces off. 
+
+My reasoning is that, everything wants to be at thermal equilibrium with its surroundings, right? And they achieve this by radiating heat between each other. Well if the metal cube is radiating it’s heat into the space inside the box, but there is nothing to absorb it, so it just leaves the box, then the cube will lose heat. but the vacuum doesn’t radiate any back like two objects would. 
+
+I’m pretty sure that this wouldn’t work, but I can’t think of why.I know this seems like a dumb question, as the energy for sun to shine on a plant would either be the same as or more than the energy it would take to power several layers of grow lamps, but could we maybe use lower power lamps that specifically isolate the optimal wavelengths for certain types of crops, or use reflectors to bounce sunlight in until the sun goes directly overhead or something? With growing space at a premium and global climate change threatening our food supply I'm wondering what technological options exist to supplement our nutritional needs. Certain types of versatile high yield crops like soy, rice, tomatoes, and sugar beets might be the key to our very survival, if you'll pardon my possible hyperbole.I don't mean take a baby in a womb and make them smarter, I mean a adult that's already developed.
+
+And how would we be able to do it?  When we speak about Black Holes, we immediately imagine few of the most famous illustrations along with the first photograph taken of Powehi.  
+If I am to interpret the drawings, or let's take one of the most common drawings illustrated like this one: \[Symmetrical Drawing\](https://w7.pngwing.com/pngs/741/216/png-transparent-black-hole-graph-paper-wormhole-universe-chart-black-hole-symmetry-graph-of-a-function-structure-thumbnail.png)    
+or this one: \[Singularity Cone Drawing\](https://www.sciphijournal.org/wp-content/uploads/2019/06/black-holes-01.jpg)    
+or even the one shown in the photograph of \[Roger Penrose at oxford 1980\](https://ichef.bbci.co.uk/news/976/cpsprodpb/12726/production/\_114785557\_h4160015-professor\_roger\_penrose.jpg)  
+
+
+They all represent the black hole as an entity that looks like the sink hole from one side, that supposedly the sink bed is the fabric of spacetime, and its pull swallows whatever on this fabric -or most of the things if we want to get technical- into this "tube shaped hole". But is there anyone that ever spoke about how the black hole is basically shaped? And by this question, I do not mean how it is created, but what is the shape of the black hole as an entity?  
+
+
+Now according to most of the astronomical studies that I have encountered, everything I read tend to describe that things that are happening around us are happening in 3 or more dimensions, which means, that to us -until now at least- it is very hard to imagine how things would look like if we were to imagine them. Just like the example of a tesseract. This leads us into the conclusion that all the illustrations are an over simplification of "the events" or "material" that exists out there, on a one or two dimensional space/surface, so that we may lay our basic rules and laws and start/continue our studies.  
+
+
+Now based on that, if I am to conclude logically, that because the events are happening in at least a 3 dimensional space, then it is safe to assume that the blackhole illustrations that we see, are applied to every possible vectors that is directed away from the center-point/singularity. And since the black hole has an immense gravity / space time curvature, means that everything on the spacetime fabric is headed towards it from all directions.  
+
+
+Now, based on this. Would it be safe to assume that what we call a "Black Hole", may not by a hole at all?    
+What I'm implying here, is that since it's pulling everything from all directions, isn't there a possibility to have this entity shaped as a sphere (star / planet / moon …etc.) basically like most of the things that we see around? A planet shaped entity that is black because it's "gravitational pull" is ridiculously strong that even light doesn't get reflected on it's surface?  
+
+
+I know that the safest approach towards such "mysterious" objects and events to call them a singularity, or Dark Matter. Because when there is no light, we cannot see, nor interpret what is going on, but based on the repetitive pattern that we can witness starting from the sub atomic level of the quantum realm, having quarks and protons and Neutrons, that are give or take have spherical shape, the ones having the most mass are the in the center relatively to the other external non static elements like electrons that are also shaped as a sphere... all the way up to a solar system... sun, planets, gas giants, moons …etc.This is one of a number of US naval patents. One which I've not been able to find out much about, other than it generates some sort of field around a mass, enabling it to circumvent Newton's first law.
+
+I'm not entirely sure why, but the Leidenfrost Effect immediately sprung to mind, after which I was aware that they obviously are not the same.
+
+My question is, what do we know about how this (IMR) device claims to work?
+
+EDIT: Thanks roppunzel provided link to patent.
+https://patents.google.com/patent/US10144532B2/enhttps://www.theatlantic.com/ideas/archive/2022/01/scientific-funding-is-broken-can-silicon-valley-fix-it/621295/
+
+I was reading this really stimulating article of different Silicon Valley efforts to try to improve the resources available to scientific researchers to be successful and flourish. And I was wondering what researchers on this subreddit took away from the article and their perspective on the broader role of Silicon Valley as a catalyst for scientific progress?(Li-ion / Li-po batteries)  
+When using a smartphone (or anything powered by a battery), the battery discharges, until at some point, voltage gets too low (~3.4 V for phone lithium batteries) and shuts down.  
+If it drops even lower (like 3 V), the internal protection of the battery will cut off the   .
+But what if there was no such protection and you could use the battery as long as  it has enough energy to power the phone?  
+What would happen? Will the battery explode? If not, can it be used again?Let's just say that this one is an adult and without a doubt had children and a lineage of at least A. afarensis grandchildren behind them, and going off that A. afarensis is for sure a direct ancestor to our species. Is there a way to tell maybe the percentage chance that they are a blood relative to me? 
+
+Or, if that's too far away from modern day, perhaps a homo erectus skull (same deal as before) before they migrated out of Africa?
+
+(Apologies if wrong flair)This could also extend to cats (and maybe even livestock?), but the ties of those animals don't seem as strong as humans and dogs.Imagine a human being were to be transported to the early Jurassic period. Would she be able to eat breath the air, eat any of the plants and animals, and live a whole life? Given she doesn’t get eaten.Curious to hear from scientists broadly:
+
+* What area of science are you in?
+* What open-source pieces of software do you use which take a long time to  process data and could be sped up by splitting the work onto multiple  machines (protein folding, molecular docking, etc)?
+* Do you currently use any kind of work-splitting platform (BOINC, Hadoop, etc), if so, how do you like it? What are your pain points and have you tried any other platforms?How likely is it that nuclear powers like the US or Russia have been developing even more powerful bombs in secret? And how powerful can nuclear weapons practically get?Here's a startup [trying to build a space plane](https://arstechnica.com/science/2022/01/radian-announces-plans-to-build-one-of-the-holy-grails-of-spaceflight/?utm_source=join1440&utm_medium=email). 
+
+When rockets were not reusable, I could see how this would seem like a great step up and a cost savings. But now that we've got reuseable rockets, is it really the superior option? Why is this sort of a space plane necessary? 
+
+Here's the justification from the article:
+
+>"A vehicle like Radian One would be well suited to fly people to commercial space stations in low Earth orbit, which NASA seeks to foster development of by 2030. These planes could also perform Earth observation work and play a role in bringing back space-manufactured goods. There is also the potential for point-to-point travel on Earth."
+
+What about this couldn't be done by Starship or something similar?So, this is a copy of a post I made over at [r/IsaacArthur](https://www.reddit.com/r/IsaacArthur/), which covers the same basic stuff...I'd like to make clear even before the quoted post with a **clear** declaration that this is speculative in nature, and based around the exploration of a subject I'd like to cover in my own work:
+
+"If a system of alien ruins were to be discovered, let's say buried on Titan, what are some ways we could more or less *realistically* go about deciphering their history, purpose, etc, especially if they were on the order of many millions of years old?
+
+"Obviously there are a lot of reasons why alien ruins are a bit of a left-field topic in "realistic" spec fic, not the least of which being that the universe is a *big* and very old place, and the odds of ever stumbling across the leavings of alien civilizations, especially ones which weren't so old as to be weathered away to nothing and/or buried by sedimentary deposits, but setting that aside, what sorts of possibilities might there be for understanding such relics?
+
+"Just for some clarification, the concept I'm working with in particular is that an alien "precursor" civilization, no longer extant during human history, left a trove of artifacts buried beneath the surface of of Titan that human archeologists think could be a depositary of alien knowledge (*a lá Isaac's concept of robotic colonization of Titan*), and I'm curious how this could be even speculatively determined?"
+
+So basically, if a depositary of alien knowledge was buried on a frozen moon somewhere, how might future archaeologists go about prizing out clues to its nature?A friend and I had a discussion about pumped hydro for energy storage and started discussing what is needed. There is the two-lake setup, a lake and a mine, and then we thought, if the energy is generated at sea, why not store energy in a downwards cylinder with an open bottom and pump air into the top to displace the water inside? To our knowledge, nobody does this, so we assume it’s a terrible idea. But why?Recently Nature Neuroscience informed that "\[...\] the cost of publication is covered by an Article Processing Charge (APC) paid at the time of publication. The APC for *Nature Neuroscience* in 2022 is €9,500/US $11,390/£8,290"
+
+[https://www.nature.com/articles/s41593-021-00995-2](https://www.nature.com/articles/s41593-021-00995-2)
+
+[https://twitter.com/NatureNeuro/status/1480909476546891784](https://twitter.com/NatureNeuro/status/1480909476546891784) Thread at TwitterLets say two planets in an alien galaxy are orbiting a star but moving in opposite directions, planet B is moving, lets say half the speed of light, relative to planet A. a resident from planet A gets in a space ship, accelerates to the speed of planet B and lives there for a year before returning. Lets say a resident from planet B does the same, traveling to planet A and then returning home. Who aged the most? Do both travelers return home having experienced less ageing than they would have if they had remained home?As the title says.
+
+I recall reading somewhere that General Relativity was not immediately accepted by some when it was first proposed, but acceptance became stronger and stronger over time as experimental results supported it to finer and finer precision.Some context, with numbers plugged to me by u/AbbydonX
+
+&#x200B;
+
+Each of the two suns is 85% as wide, 78% as massive and only 40% as bright as the G5 star that we take for granted.  One orange dwarf orbits the other from a distance of 0.26 AUs.  This hypothetical Earth still orbits both stars from a distance of one AU, with no physical or chemical differences within itself.  So with all that in mind, what would the 12 hours of daylight look like with the sun being a K0 binary?I know there are no cases to date. It seems like it isn't something most people (even scientists?) are worried about. When I see some studies saying how [plants can take up the prion](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4449294/) and go on to infect hamsters when eaten, it seems like we should be taking more precautions against it.
+
+An ongoing study shows that [macaques were infected after eating asymptomatic deer](https://www.cdc.gov/prions/cwd/transmission.html). CWD hasn't been very widespread [until recently](https://www.usgs.gov/media/images/distribution-chronic-wasting-disease-north-america-0) (and in a lot of these places, the percentage infected still isn't high), and prion diseases in humans can have [long incubations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2581654/). But I also see that [there are studies showing no transmissibility](https://www.nih.gov/news-events/news-releases/nih-study-finds-no-chronic-wasting-disease-transmissibility-macaques).
+
+Are there flaws in the studies that have shown CWD can infect primates or infect through plant consumption that make people dismiss them? Or is this something people would only worry about after the first case? It seems the overall consensus is that if you don't eat infected meat, you should be fine. But when I see these other studies, it seems like we should also keep them away from our crops, etc. I would like to understand this better.Several years ago the consensus was that we still weren't sure what the minimum among of time was to bring on autophagy in fasting humans, but it was assumed to be between 18 and 36 hours. Have we narrowed down this window? Have there been studies done you can link me to?Historical radio messages? Can radio messages, sent in the past, be picked up with the correct receiver settings? I’m talking about messages sent in the distant past which (allegedly) still bounce around the stratosphere/ionosphere?
+
+Historical radio messages?
+
+Can radio messages, sent in the past, be picked up with the correct receiver settings? I’m talking about messages sent in the distant past which (allegedly) still bounce around the stratosphere/ionosphere?  Any real assistance appreciated as I’ve heard it’s impossible and also the complete opposite that it’s very possible?My experience living in both car-centric, sprawling US cities, often build with modern or brutalist architecture and long unbroken blocks of buildings, as well as low car/no car urban areas in Europe with a more traditional urban form, seems to be that the traditional designs, without the stress of auto noise and danger, and with comfortable squares where you can dine and talk and stroll, and beautiful churches and buildings of up to five stories, lead me to feel calm and social and friendly. On the other hand, I always feels a low level of stress being on the street in US cities. It does not lead me to feel any particular affection for these cities, whereas I feel very protective of traditional European ones. My urge is to get off of these streets as soon as I can. 
+
+This leads me to wonder if the Renaissance thinkers may have been on to something. They didn't have cars, obviously, but the scale and dimensions of their buildings, squares, etc, were meant to produce a positive effect on people. 
+
+Do we have any reason to suspect this actually occurs with traditional architecture/city planning? Has research been done?Why? What was it? How did it go? Dissertations not included.Suppose a talking species of a bird was hatched and raised in a room or place where there is absolutely no source of sound such as speaker, phone, siren, music, people talking, other birds, and other kinds of sound (basically you're making an artificially deaf bird by depriving it of any kind of sound) will it be able to produce those sounds? Or do it need something to mimic in order to produce those sounds?
+
+Hypothetically, what would happen if this kind of experiment would take place, what could be the bird be able to produce? Will it (A) produce just the usual bird sound like tweeting (or anything it is instinctively able to produce) or (B) will not be able to produce any sound at all since it has no idea of what sounds to recreate.My observation is that peltier module is more of a hobbyists device . It's potential as a cooler for motorcyclist helmets or microfridges has never taken scale , making me think it is not viable as a commercial electronic component.
+
+&#x200B;
+
+Is it because there are better cooling devices available ?
+
+&#x200B;
+
+Or is the technology yet to develop ?The first thing I learned about psychology was that it's a science, and we were taught the difference between different types of evidences with large emphasis on empirical evidence. I've seen it treated like and called a pseudoscience; the internet has pretty much bastardized the idea of psychology. But it's a passion of mine, so I can't stand seeing how misunderstood it gets by most people. 
+
+I got into an argument with about a dozen or so people who were saying that psychology is just a social science and not a hard science. I argued that it was a hard science and have gotten nothing but people telling me that I don't know what I'm talking about and calling me a twat. So I started backing up my argument with definitions, but while checking the definitions it seemed ambiguous. I know psychology isn't just a social science because it deals with measurable aspects of the brain, not just interpersonal relationships, culture, etc. One person argued that its a behavioral science and therefore not a hard science, but I feel that it's both. I checked the definition for hard science which says that it deals with things that are observable and measurable which, similar to social science, means parts of psychology fit and parts don't. I think of psychology as being a science of discovering and measuring the brain, turning behavior from an immeasurable factor to something that can be measured and anylized, but it seems like it's really a science that overlaps into many different areas. Saying it's not a hard science sounds the same to me as saying biology isn't a hard science, but how it sounds to me isn't really relevant in the end.
+
+Science is science, so I don't believe it really matters in the broad scheme of things, but this got me wondering and wanting to know what the scientific consensus is on what kind of science psychology is? And what do other psychologists think of psychology being considered just a social science?A recent publication ([El-Shennawy et al 2022](https://www.nature.com/articles/s41467-021-27893-2#citeas)) suggests that people infected with SARS-CoV-2 release extracellular vesicles (EVs) that have the ACE2 receptor on their membranes, acting as a decoy for the virus to infect instead of cells.
+
+Has this been seen in any other viral diseases? I've never heard of this before, not sure if it even falls under the "immune system" label or not.
+
+Maybe decoy vesicles with receptors targeted by viruses are going to be produced as antivirals?Hi everybody!
+
+My question is not about the definitions of these words, but if you consider using it as a starting point, I leave you with the vague definitions about the the words organic and inorganic:
+
+&#x200B;
+
+Inorganic: relating to or denoting compounds which are not organic (broadly, compounds not containing carbon). -from Oxford Languages
+
+Organic: relating to or denoting compounds containing carbon (other than simple binary compounds and salts) and chiefly or ultimately of biological origin. -from Oxford Languages
+
+Inorganic Compound: "...However, the distinction is not clearly defined; authorities have differing views on the subject." -from Wikipedia
+
+&#x200B;
+
+I gave these examples because the introduction of customized definitions before understanding well how main principles of chemistry works makes it difficult for the learner to understand with the whole context. (IMHO)
+
+I wanted to point this out because I'm trying to understand the working principles of chemistry, not the next-stage definitions that branched out into specialties.
+
+Thanks a lot for the replies!In my mind, horizontal gene transfer seems like one of the most powerful tools lifeforms have to cooperate among eachother. It takes less time than reproduction, uses less energy, ect. I can imagine a world where constant and more complex/mediated forms of horizontal gene transfer could lead to exponential gains for life.
+
+Why is it not more common in various domains of life? The only place I seem to hear about it regularly coming up is in bacteria. Is the machinery just to hard to develop that the evolutionary gap is never crossed to implement it? Do the downsides outwheight the benefits? I'm sure there's an answer I just don't have the theory to figure it outI was thinking about the possibility to use CRISPR / Cas9 to modify Bacteriophages in a way that they efficiently kill multi resistant bacteria. I wondered if a similar mechanism like HIV can be used to compromise a bacterias defense mechanism / immune system to attack itself rather than the virus.
+
+I'm not well-read in that topic so I can't make an educated guess whether that would be feasible.
+
+What do you think?I feel like a potato asking this question but a neighbor said it and it got me thinking.... I live less than a mile from one of the largest freeways in America. 95% of the time we do not hear any sound from the freeway. Every once and a while we hear the cars on the freeway VERY clearly. Like we can hear the sound of tires on pavement, almost like the vehicles are 75% closer than usual. It seems almost impossibly different. I thought maybe the amount of humidity in the air might have something to do with it but my neighbor said "the wind must be blowing the other direction". So... Does wind influence the direction a sound travels?Given that we know magnetic shockwave acceleration can produce rays energetic enough to compare with those produced in a supernova, is it possible for ultra high energy particles to be produced inside the earth's core?Not sure this is the right place to ask this, but I'm gonna try. My 8 year old is really big into science and she wants to do a science project for school this year and use my microscope or telescope to do it. The microscope is a fairly decent 2500x light microscope and the telescope is an 8in Dobsonian. I figured a science project with the microscope would be more viable as I can't really think of anything we could do with the telescope right off the top of my head.
+
+Does anybody have any cool ideas that would implement either one?So it seems that over the years, the ISS has built up quite a funk. If they just left it uncrewed for a few weeks, opened it up to space, maybe even let it heat up as much as safe, would the smell return once new air was back in?
+
+(back-of-the-envelope, that's about [$20 million in air](https://spacenews.com/nasa-hikes-prices-for-commercial-iss-users/)).After reading about the [ARkStorm (for atmospheric river 1,000 storm)](https://en.wikipedia.org/wiki/ARkStorm) that has wollopped California repeatedly, I'm curious if it's effects could reach parts of New Mexico? Especially as we consider how the atmospheric windstreams will be shifting in the coming century.my dream is to work as a biomedical scientist in the field of genetics, but I have my doubts if this job would be gratifyingly and financially rewarding, as I have a big financial need because of medical conditions and I'm also afraid of graduating and not getting a job in the field
+
+if you think it's not worth it, what degrees would you recommend me?Furthermore could there be a future where LSD and Shrooms become legal for recreational use.  Similar to weed?So couple quick google searches tells you that
+Your lungs hold about 6 litres of air
+
+The atmosphere is made up of about 21% oxygen
+
+And that you use about 4% of that oxygen in one breathe
+
+So out of 600ml (6l) about 126ml is breathable oxygen, and your body would absorb about 24 ml in your first breath, 
+
+If you breathed out into a 6l bag (same size a lungs) would your second breath also absorb ~24ml? Or 4% of what’s left?I've noticed how much longer it takes for the skin on your hand to heal versus that of your mouth. So how long does it take each type of tissue to go from new to refreshed?The article: [https://www.clarin.com/rural/nueva-vacuna-coronavirus-avisa-traiciona\_0\_7G7a-miJo.html](https://www.clarin.com/rural/nueva-vacuna-coronavirus-avisa-traiciona_0_7G7a-miJo.html)
+
+I need basis for a discussion with my sadly antivaxxer friend.There is very little literature about this type of singing. As far as I am aware there are two papers this being the most recent.
+https://elifesciences.org/articles/50476
+I started to make huge progress learning how to throat sing at the start of the pandemic. I started noticing that if I was congested or had trouble breathing that if I throat sang I could feel things getting dislodged. I know this isn't considered evidence, because this is just my personal experience. I'm wondering if the resonance could even potentially break up blood clots. 
+
+Please note I'm not saying that throat singing or overtone singing is good enough against COVID19. I got vaccinated, and I encourage everyone to do so, and to rely on your doctor to deal with issues. I'm just wondering if this could be something real. I'm wondering if certain audible frequencies could be used to help people with COVID19 so they wouldn't have to learn overtone singing.I have some vague notion of how e.g. stem cell research would fall under this category. I also remember reading about how the tech for electric cars had existed for 100+ years before it ever became remotely economically feasible to compete against the ICE giants. I'm sure this is a recurring road block for a lot scientist/researchers in getting funding too, so would love to here some insight into things you may have been passionate about researching or developing but were unable to due to lack of funds or lack of interest from those with the funds. 
+
+Originally posted to r/askscience, was informed this sub would be a better fit. I think that makes sense.Based on what I researched, the rapid absorption of arsenic in the gastrointestinal tract is due to its water solubility. However, I remember my lecturer stating that arsenic is able to pass the blood brain barrier due to it being lipid soluble.Context:
+
+Our bodies require a certain amount of energy every day in order to function i.e. our base metabolic rate (BMR). This is, from my understanding, dependent on the body weight (or more specifically, body composition), activity levels and other factors such as gender, age etc. 
+
+In cases of weight loss or weight gain (such as in bodybuilding) we're changing some of the variables in the whole energy in / energy out equation and as a result, over time, our BMR changes, as our bodies adapt to changing circumstances.
+
+An oversimplified example:
+
+If a male overweight person weighing in at 100 kg (220 lb) at 30% body fat with a, mostly, sedentary lifestyle has a BMR or 2000 kcal per day and stops eating (i.e. goes on a water fast) their body will continue to consume the 2000 kcal for some time. As they start to lose weight, it stems to reason that their BMR will drop as well. (for the sake of simplicity, let's just assume all the weight lost is fat, I realize this doesn't reflect reality but this is just to simplify the model)
+
+Assuming (approx.) 7000 kcal in a 1 kg (2.2 lb) of fat, the person's weight loss would eventually start to slow down (as the body will require less energy to maintain itself) thus it will take longer and longer to drop the undesired weight (or, more specifically, body fat).
+
+Obviously, the BMR can't drop do zero (unless the person dies), which means that it starts to reach some form of "equilibrium" between how much it needs to function and the amount of energy needed to carry the current body weight and handle the same amount of physical activity. I'm still assuming that the BMR will vary due to the changes in body composition / weight, but the difference would be minimal given the energy expense of maintaining fat tissue is much less than muscle (IIRC 2.5 kcal vs 4 kcal, but I could be wrong on the actual numbers)
+
+Thus my question: 
+
+How long (as in, is there a way to calculate / approximate)  would / does it take for the body to reach this supposed equilibrium and is there anything that affects how quickly does the body reach that value assuming activity levels remain the same (i.e. energy output is constant)?
+
+Any papers, articles, calculators etc you can point me to would be much appreciated.I was just learning about PFOA C-8/Teflon etc and its environmental effect. I have a waterproof jacket as well, should I sacrifice it to Tchernobog or is it no big deal?Easy access to steel spawned the Industrial Revolution. The Information Age was built on silicon. Graphine promises to create incredibly dense batteries. Access to new materials has been responsible for many paradigm shifts in technology.
+
+Asteroids contain enormous amounts of rare metals like gold and platinum. If we could mine these reliably, what technologies could this enable?When the pandemic started, there was a lot of modeling done to try to predict the pandemic's spread and impact on hospitals.  It seemed like the models were wildly varying between them and in terms of potential outcomes.
+
+Have they gotten better since then and more capable at predictions that are reasonably accurate?  Or have the mutations in the virus and the varying responses from policy makers, re-openings and general public behavior been too difficult to bake into the models?[Marine cloud brightening](https://en.m.wikipedia.org/wiki/Marine_cloud_brightening) seems to have a lot of good things going for it. We already have the technology, it uses natural and abundant sea water, and it can be localized, controlled, and (if necessary) reversed. 
+
+It seems like a good band-aid until we can change the course of human climate-changing conduct more broadly. But I rarely see it brought up. Why?I've been thining abou this a lot - how does science determine the difference between a variant of a thing and a deviation of a thing? Can it? What is that line between a difference and a disorder? I think about this with regards to things like mental health (for example homosexuality being removed from the DSM), or certain genetic disorders (for example what's happening in the neurodiversity movement at the moment). Th e more I look into it, the more it looks like so much of what determines something like that (except in the case of something like cancer where the variation causes an obviously negative outcome), is our social context for the thing and what that social context does to the person experiencing the "disorder/variation" of a way of being/thinking/etc. I realize this has some heavy cross overs with ethics and philosophy and such, but I wanted to ask here as well because I'd like scientific perspectives on the matter.
