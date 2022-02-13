@@ -32,7 +32,7 @@ emoji_pattern = re.compile("["
                       "]+", re.UNICODE)
 
 url_pattern = re.compile(r'https?[:][/][/]\S+')
-bad_char_pattern = re.compile(r'[]\\<>;%&@~`=*[]')
+bad_char_pattern = re.compile(r'[]\\<>%&@~`=*[]')
 
 def de_emojify(text):
     return emoji_pattern.sub('',text)

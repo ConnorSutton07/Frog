@@ -19,3 +19,8 @@ Frog Notes
 - art of war
 - wilderness survival guides
 - law book
+
+
+- refer to past mentioned objects and somehow extend context without getting into loop
+- not crash when encountering unknown sentence
+- encorporate sentence stops
