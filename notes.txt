@@ -1,0 +1,41 @@
+try to match input to a certain category of question
+^ implemented with a neural network
+^ or match keywords
+
+have a set of templates that would frame the response in a certain way
+
+hierarchy of n-gram models
+^ if n=4 fails, try n=3, then n=2...
+
+
+documents
+--bible
+--technical documents
+--opinion pieces
+--game review
+--social media posts/content (strongly worded)
+--philosophy
+--shakespeare
+--fantasy/sci-fi
+--propaganda
+--erotica
+--autobiographies/diaries
+
+Steps
+-----
+
+* Gather our documents
+* Generate model, save it
+* Add preprocessing, metadata
+* Basic model working (doesnt need to terminate sentences or categorize queries yet)
+* Augmenting probabilities by relevancy
+* Creating categories and template structures
+* ...
+
+
+
+
+Later
+-----
+
+Lemmatize to broaden options (will need to convert tense somehow)
