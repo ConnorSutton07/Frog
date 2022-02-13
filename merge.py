@@ -16,7 +16,7 @@ blocked = {
     'master_scroll_clean.txt',
     'master_scroll_tokenized.txt',
     'vocab_out.txt',
-    'nsfw_stories_gone_wild_reddit.txt',
+    # 'nsfw_stories_gone_wild_reddit.txt',
     'copy_pasta_reddit.txt'
 }
 

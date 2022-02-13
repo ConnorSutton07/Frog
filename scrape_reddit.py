@@ -30,12 +30,12 @@ def main():
             print(sub)
             res = input('yes? ')
     else:
-        sub = reddit.subreddit('FanTheories')
+        sub = reddit.subreddit('LifeProTips')
         
-    limit = 1000
-    comment_limit = 10
-    skip = 2
-    post = True
+    limit = 500
+    comment_limit = 2
+    skip = 1
+    post = False
     comments = False
     posts = sub.top(limit=limit)
 
