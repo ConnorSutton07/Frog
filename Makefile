@@ -1,3 +1,5 @@
+.PHONY: models
+
 all:
 	python3 merge.py
 	python3 clean.py

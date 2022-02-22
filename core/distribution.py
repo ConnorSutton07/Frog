@@ -1,4 +1,5 @@
 import random 
+from math import log
 
 class Distribution:
     def __init__(self, choices: list, smoothing: float = 2) -> None:

@@ -7048,7 +7048,6 @@ bernina
 bernoulli
 bernoullis
 bernstein
-bernut
 berodachbaladan
 berothah
 berothai
@@ -29902,6 +29901,7 @@ giving
 gizmo
 gizonite
 gît
+gl
 glacecrawler
 glacial
 glacially
@@ -30002,9 +30002,7 @@ glimpse
 glimpsed
 glimpses
 glimpsing
-glin
 glinda
-glins
 glint
 glinted
 glinting
@@ -30109,6 +30107,7 @@ glowstick
 glowsticks
 glowy
 gloze
+gls
 glucagon
 gluconate
 gluconeogenesis
@@ -43389,6 +43388,7 @@ lysol
 lysols
 lystra
 lytle
+lève
 lợn
 m
 ma
@@ -69415,7 +69415,6 @@ stereotypical
 stereotypically
 stereotypicaly
 stereotyping
-stergard
 sterile
 sterility
 sterilization
@@ -82811,7 +82810,8 @@ zâram
 śhiva
 γμμτική
 авац
-добавть
+населеня
+рассредоточе
 темата
 ⁉⁉so
 ≤m

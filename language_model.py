@@ -1,7 +1,6 @@
 
 import numpy as np
 import random
-from math import log
 from icecream import ic
 from typing import List
 import os
@@ -39,8 +38,8 @@ if __name__ == "__main__":
     pos  = [x[1] for x in data]
 
     n = 3
-    pos_model = ngram(4, pos, "Creating 4-gram POS model...")
-    language_model = ngram(3, text, message = f"Creating {n}-gram language model...")
+    pos_model = ngram(n, pos, f"Creating {n}-gram POS model...")
+    language_model = ngram(n, text, message = f"Creating {n}-gram language model...")
     print("Saving models...")
     save_model(pos_model, "pos_model")
     save_model(language_model, "trigram_model")

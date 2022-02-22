@@ -63,9 +63,17 @@ def sample(query: str, language_model, pos_model, vocab, n, length):
         at_sentence = False 
         key = " ".join(query)
         if not key in language_model: 
-            pos_query = " ".join(pos_tag(query))
+            #try:
+            print('here')
+            tags = [x[1] for x in pos_tag(query)]
+            pos_query = " ".join(tags)
+            print(pos_query)
+            #pos_query = " ".join(pos_tag(result[-4:]))
             if not pos_query in pos_model: return "fail"
-            new_word = random.choice(vocab[pos_model[" ".join(result[-4:])]])
+            new_word = random.choice(vocab[pos_model[pos_query].sample()])
+            print(query, new_word)
+            #except:
+            #    return "fail" # print("")
         else:
             new_word = query[-1]
             cc = 0
@@ -86,7 +94,9 @@ def sample(query: str, language_model, pos_model, vocab, n, length):
             
 
 if __name__ == "__main__":
+    print("Loading models...")
     language_model, pos_model = load_models()
+    print("Loading vocab...")
     with open(os.path.join("Documents", "master_scroll_pos_vocab.json"), 'r') as handle:
         pos_vocab = json.load(handle)
     n = 3
@@ -97,24 +107,35 @@ if __name__ == "__main__":
     # the fat of the peace
     # i came for questions not to
     # this book is largely concerned with hobbits
-    query = 'this book is largely concerned with hobbits'.lower()
+    queries = [
+        'i guess he could have just',
+        'jack bring the nectar to',
+        'the fat of the peace',
+        'i came for questions not to',
+        'this book is largely concerned with hobbits'
+    ]
+    #query = 'this book is largely concerned with hobbits'.lower()
     stop_pattern = re.compile(r'[.?!][.?!]+')
     comma_pattern = re.compile(r'[,][,]+')
     space_pattern = re.compile(r'  +')
-
     bad_comma_pattern = re.compile(r'[,](?=<[!.?]+>)')
-    for i in range(1, 11):
-        #gen, actual_n = sample(query, models, n, length = resp_len)
-        gen = sample(query, language_model, pos_model, pos_vocab, n, length = resp_len)
-        gen = gen.replace(' .', '.')
-        gen = gen.replace(' ;', ';')
-        gen = gen.replace(' :', ':')
-        raw_resp = ' '.join(query.split()[:len(query.split()) - n]) + ' ' + gen
-        resp = '. '.join(sent.strip().capitalize() for sent in raw_resp.split('. '))
-        resp = resp.replace(' i ', ' I ')
-        resp = stop_pattern.sub(random.choice(('.', '?', '!')), resp)
-        resp = space_pattern.sub(' ', resp)
-        resp = comma_pattern.sub(',', resp)
-        resp = bad_comma_pattern.sub('', resp)
-        print(f'{i}) "{resp}"')
-        print()
+
+    outfile = open('out.txt', 'w')
+    print("Generating sentences...")
+    for query in queries:
+        for i in range(1, 11):
+            #gen, actual_n = sample(query, models, n, length = resp_len)
+            gen = sample(query, language_model, pos_model, pos_vocab, n, length = resp_len)
+            gen = gen.replace(' .', '.')
+            gen = gen.replace(' ;', ';')
+            gen = gen.replace(' :', ':')
+            raw_resp = ' '.join(query.split()[:len(query.split()) - n]) + ' ' + gen
+            resp = '. '.join(sent.strip().capitalize() for sent in raw_resp.split('. '))
+            resp = resp.replace(' i ', ' I ')
+            resp = stop_pattern.sub(random.choice(('.', '?', '!')), resp)
+            resp = space_pattern.sub(' ', resp)
+            resp = comma_pattern.sub(',', resp)
+            resp = bad_comma_pattern.sub('', resp)
+            outfile.write(f'{i}) "{resp}" \n\n')
+            #print(f'{i}) "{resp}"')
+        outfile.write('\n---------------------\n')
