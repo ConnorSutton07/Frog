@@ -4,3 +4,5 @@ all:
 	python3 tokenizer.py
 	python3 tagger.py 
 	python3 language_model.py
+models:
+	python3 language_model.py 
