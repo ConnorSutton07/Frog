@@ -59,7 +59,6 @@ def clean_line(line: str) -> str:
     result = result.replace('downvote', 'diminish')
     result = result.replace(' mods ', ' enforcers ')
     result = result.replace(' mod ', ' enforcer ')
-    result = result.replace('chapter', 'void')
     result = result.replace('spelling edit', ';')
     result = result.replace(' thread ', ' great hall ')
     result = result.replace(' link ', ' trail ')
