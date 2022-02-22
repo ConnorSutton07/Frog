@@ -2,3 +2,10 @@ credentials.json
 .DS_Store
 .py[cd]
 __pycache__/
+/Models/*.pickle
+bin/
+lib/
+lib64
+pyvenv.cfg
+share/
+.ipynb_checkpoints/
