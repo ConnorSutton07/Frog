@@ -6,6 +6,8 @@ import random
 import pickle
 from core.distribution import Distribution
 import json 
+from nltk.corpus import words
+en_words = set(words.words())
 
 def load_models(): #n_values: List[int]) -> dict:
     # models = {}
@@ -64,14 +66,16 @@ def sample(query: str, language_model, pos_model, vocab, n, length):
         key = " ".join(query)
         if not key in language_model: 
             #try:
-            print('here')
+#            print('--')
             tags = [x[1] for x in pos_tag(query)]
             pos_query = " ".join(tags)
-            print(pos_query)
+#            print(key)
+#            print(pos_query)
             #pos_query = " ".join(pos_tag(result[-4:]))
-            if not pos_query in pos_model: return "fail"
+            if not pos_query in pos_model: 
+                return "fail"
             new_word = random.choice(vocab[pos_model[pos_query].sample()])
-            print(query, new_word)
+#            print(query, new_word)
             #except:
             #    return "fail" # print("")
         else:
@@ -80,6 +84,7 @@ def sample(query: str, language_model, pos_model, vocab, n, length):
             while new_word == query[-1] and cc < 5:
                 new_word = language_model[key].sample()
                 cc += 1
+        #if new_word in en_words:
         del query[0]
         query.append(new_word)
         result.append(new_word)
@@ -99,6 +104,7 @@ if __name__ == "__main__":
     print("Loading vocab...")
     with open(os.path.join("Documents", "master_scroll_pos_vocab.json"), 'r') as handle:
         pos_vocab = json.load(handle)
+    print(f"Length of vocab: {len(pos_vocab)}")
     n = 3
     resp_len = 75
     # THESE WORK: note that upon failing a value of n, it will atempt to decrease n for remainder of generation.

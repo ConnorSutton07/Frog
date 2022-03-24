@@ -7,8 +7,8 @@ from tqdm import tqdm
 import re
 from icecream import ic
 
-
 BASE_PATH = osp.dirname(osp.realpath(__file__))
+en_words = set(words)
 
 emoji_pattern = re.compile("["
         u"\U0001F600-\U0001F64F"  # emoticons
@@ -60,6 +60,7 @@ def clean_line(line: str) -> str:
     if set(result.strip()) < ({'-', '_', '=', ' ', '.'} | set('1234567890')):
         return ''
     if result: result += '\n'
+
     return result
 
 

@@ -32,10 +32,30 @@ Steps
 * Creating categories and template structures
 * ...
 
-
-
-
 Later
 -----
 
 Lemmatize to broaden options (will need to convert tense somehow)
+
+
+
+---------------------------------------------------------------------
+
+Phase 2
+
+- Named Entity Recognition (update weights as sentences are being generated) - staying on track
+- Word Embeddings (increase the weights of close/semantically similar words) - staying on track
+- Spellcheck for reddit documents - improve grammar 
+- Grammar check frog output - improve grammar
+- More solutions for query not in model 
+    - Replace words with synonyms to search for more options in the model
+- Try removing stopwords from query
+- Use sentiment analysis to constrain tone change frequency
+- Clean/refactor
+- Resivit corpus, consider adding to increase vocab, raise n value
+
+
+Later 
+
+- Speech to Text 
+- Text to Speech (Frog Voice Filtering, Pause for Ribbit)
