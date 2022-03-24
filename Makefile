@@ -5,6 +5,6 @@ all:
 	python3 clean.py
 	python3 tokenizer.py
 	python3 tagger.py 
-	python3 language_model.py
+	python3 ngram.py
 models:
-	python3 language_model.py 
+	python3 ngram.py 
