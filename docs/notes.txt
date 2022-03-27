@@ -1,0 +1,37 @@
+Doc Ideas:
+- bible
+- quoran
+- technical documents
+- political opinion pieces
+- game reviews
+- social media posts
+- philosophy
+- shakespear plays, jane austin
+- martin luther king
+- german martin luther
+- sci-fi fantasy books
+- communist manifesto
+- propoganda
+- erotica
+- autobiographies
+- diaries
+- bee movie script
+- art of war
+- wilderness survival guides
+- law book
+
+
+Steps:
+- Named Entity Recognition
+- Word Embeddings
+- Grammar check frog output
+- Find more solutions for when query not in model 
+    - Replace words with synonyms to search for more options in the model
+	- Try removing/ adding stopwords from query
+- Use sentiment analysis to constrain tone change frequency
+- Resivit corpus, consider adding to increase vocab, raise n value
+
+
+Later:
+- Speech to Text 
+- Text to Speech (Frog Voice Filtering, Pause for Ribbit)
