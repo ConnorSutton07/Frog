@@ -6,7 +6,7 @@ from nltk.tokenize import sent_tokenize, TweetTokenizer
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords as nltk_stops
 from functools import lru_cache
-from nltk import pos_tag_sents
+from nltk import pos_tag_sents, pos_tag
 from gensim.models import FastText
 from gensim.models.callbacks import CallbackAny2Vec
 from math import floor
