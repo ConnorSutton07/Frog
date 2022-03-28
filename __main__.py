@@ -1,12 +1,11 @@
 """
-
+TODO still sometimes crashes
 """
 
 import os.path as osp, os
 import argparse
 from icecream import ic
 from gensim.models import FastText
-import compress_pickle
 from tqdm import tqdm
 import random
 from wordsegment import segment as wordsegment, load as ws_load; ws_load()
@@ -15,7 +14,7 @@ import numpy as np
 import re
 
 from core.nlp import lemmatize, stopwords
-from core.utils import get_mem_usage
+from core.utils import get_mem_usage, load_object
 
 
 PATH = osp.dirname(osp.realpath(__file__))
@@ -37,13 +36,15 @@ def score_fn(i: int, size_r: int, o: str, r: str):
 def synth_text(query: str, model: dict, n: int, target_length: int, n_samples: int = 15) -> str:
     result_tokens = query.split(' ')
     sent_len = 0
-    while len(result_tokens) < target_length or result_tokens[-1] not in term_chars - {';', ':'}:
+    while len(result_tokens) < target_length or (result_tokens[-1] not in term_chars - {';', ':'} and len(result_tokens) < 2 * target_length):
         key = ' '.join(result_tokens[-n:])
         try:
-            options = list({option for _ in range(n_samples) if (option := model[key].sample()) != result_tokens[-1]})
+            options = list({model[key].sample() for _ in range(n_samples)})
+            if len(options) > 1 and result_tokens[-1] in options:
+                options.remove(result_tokens[-1])
             if result_tokens[-1] in term_chars:
                 for char in term_chars:
-                    if char in options:
+                    if char in options and len(options) > 1:
                         options.remove(char)
         except Exception as e:
             print(query)
@@ -84,7 +85,9 @@ def main():
     argparser = make_argparser()
     args = argparser.parse_args()
 
-    ngram = compress_pickle.load(osp.join(MODEL_PATH, 'three_gram.gz'))
+    n, prefix = {3: (3, 'three'), 4: (4, 'four')}[3]  # change ngram n here!
+
+    ngram = load_object(osp.join(MODEL_PATH, f'{prefix}_gram.gz'))
 
     starters = [
         'you have to try',
@@ -96,8 +99,14 @@ def main():
         'i know that you',
         'if it be love',
         'the majority of these',
-        'i see now they',
         'i tried to find',
+        'now obey the instruction',
+        'the displacement of a',
+        'it is unnecessary to',
+        'we might expect that',
+        'there are a number',
+        'now I speak of',
+        'a society that has',
     ]
 
     simple_subs = [
@@ -117,11 +126,12 @@ def main():
     ]
 
     while True:
-        resp = synth_text((random.choice(starters)).lower(), ngram, 3, 150)
+        resp = synth_text((random.choice(starters)).lower(), ngram, n, 150)
         for text, sub in simple_subs: resp = resp.replace(text, sub)
         for ptn, sub in re_subs: resp = re.sub(ptn, sub, resp)
+        if resp[-1] not in term_chars: resp += '...'
         print(resp)
-        if input('\n') in {'exit', 'exit()', 'quit', 'quit()'}: break
+        if input() in {'exit', 'exit()', 'quit', 'quit()'}: break
 
 
 if __name__ == '__main__':

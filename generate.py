@@ -23,7 +23,7 @@ CORPUS_PATH = osp.join(PATH, 'corpus')
 MODEL_PATH = osp.join(PATH, 'model')
 
 
-invalid_ptn = re.compile(r'([][/&^#@~=+\\|}{()]|https?|www[.]|[.]html|reddit|tl;?dr|^edit)')
+invalid_ptn = re.compile(r'([][/&^#@~=+\\|}{()]|https?|www[.]|[.]html|reddit|tl;?dr|^edit|chapter)')
 valid_one_char = {'a', 'i', 'u'}
 valid_one_char_comp = alphabet - valid_one_char
 
@@ -49,7 +49,7 @@ def process_doc(doc_path: str) -> tuple[str, list[list[str]], dict[str, int], li
         for ptn in to_remove: raw_sent = re.sub(ptn, '', raw_sent)
         for ptn, repl in to_replace.items(): raw_sent = re.sub(ptn, repl, raw_sent)
         words = word_tokenize(raw_sent)
-        if not invalid_ptn.findall(' '.join(words)):
+        if not invalid_ptn.findall(' '.join(words).lower()):
             lowered = [lowered for word in words if len(lowered := word.lower()) > 1 or lowered not in valid_one_char_comp]
             for word in lowered: vocab[word] += 1
             sent_tokens.append(lowered)
@@ -63,7 +63,7 @@ def make_argparser() -> argparse.ArgumentParser:
     return argparser
 
 
-def main():
+def main() -> None:
     argparser = make_argparser()
     args = argparser.parse_args()
     doc_paths = [osp.join(CORPUS_PATH, doc) for doc in os.listdir(CORPUS_PATH) if doc.endswith('.txt')]
