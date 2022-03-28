@@ -7,101 +7,84 @@ import argparse
 from icecream import ic
 from gensim.models import FastText
 import compress_pickle
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
 from tqdm import tqdm
 import random
+from wordsegment import segment as wordsegment, load as ws_load; ws_load()
+from nltk.corpus import words; en_words = set(words.words())
 import numpy as np
 import re
 
+from core.nlp import lemmatize, stopwords
 from core.utils import get_mem_usage
-
 
 
 PATH = osp.dirname(osp.realpath(__file__))
 MODEL_PATH = osp.join(PATH, 'model')
-specials = {'.', ',', '!', '?', ':', ';', '%'}
+
+term_chars = {'?', '!', '.', ';', ':'}
+special_chars = {'.', ',', '!', '?', ':', ';', '%'}
+extra_stops = stopwords | special_chars
+word_match = re.compile(r'[\'a-zA-Z]+')
 
 embedding_model = FastText.load(osp.join(MODEL_PATH, 'embeddings_l.model'))
-# ic(embedding_model.wv.most_similar('love', topn = 25))
+def word_sim(w1: str, w2: str):
+    return embedding_model.wv.similarity(w1, w2)
 
 
-LEMMATIZER = WordNetLemmatizer()
+def score_fn(i: int, size_r: int, o: str, r: str):
+    return np.sqrt(1 + size_r - i) * (word_sim(o, r) ** 2)
 
-def lemmatize(target: str) -> str:
-    return LEMMATIZER.lemmatize(target)
+def synth_text(query: str, model: dict, n: int, target_length: int, n_samples: int = 15) -> str:
+    result_tokens = query.split(' ')
+    sent_len = 0
+    while len(result_tokens) < target_length or result_tokens[-1] not in term_chars - {';', ':'}:
+        key = ' '.join(result_tokens[-n:])
+        try:
+            options = list({option for _ in range(n_samples) if (option := model[key].sample()) != result_tokens[-1]})
+            if result_tokens[-1] in term_chars:
+                for char in term_chars:
+                    if char in options:
+                        options.remove(char)
+        except Exception as e:
+            print(query)
+            raise e
+        r_words = [lemmatize(r) for r in result_tokens if r not in extra_stops]  # have so far
+        o_words = [lemmatize(o) for o in options if o not in extra_stops]  # could add next
 
+        if r_words and len(o_words) > 1:  # we have some results and have multiple options
+            scores = [(o, sum([score_fn(i, len(r_words), o, r) for i, r in enumerate(r_words)])) for o in o_words]
+            new_word = options[scores.index(max(scores, key = lambda pair: (lambda o, score: score)(*pair)))]
+        else:
+            try:
+                new_word = options.pop()
+            except Exception as e:
+                print(query)
+                raise e
+        if new_word in term_chars: sent_len = 0
+        else: sent_len += 1
+        result_tokens.append(new_word)
+        
+    tokens = []
+    for token in result_tokens:
+        segmented = wordsegment(token)
+        if word_match.fullmatch(token) and all([segment in en_words and len(segment) > 2 for segment in segmented]):
+            for segment in segmented:
+                tokens.append(segment)
+        else:
+            tokens.append(token)
 
-stops = set(stopwords.words('english')) | specials
-
-
-def synth_text(query: str, model: dict, n: int, length: int) -> str:
-    og_query = query
-    query: list = ((query.split(' '))[-n:])
-    result = query[:]
-    sentences = 0
-    length_reached = False
-    at_sentence = False
-    i = 0
-    while not length_reached or not at_sentence:
-        at_sentence = False
-        key = ' '.join(query)
-
-        options = set()
-        for _ in range(15):
-            new_word = query[-1]
-            cc = 0
-            while new_word == query[-1] and cc < 5:
-                try:  # TODO figure out why err here
-                    new_word = model[key].sample()
-                except Exception as e:
-                    print(og_query)
-                    raise e
-                cc += 1
-            options.add(new_word)
-        options = list(options)
-        q_w = [lemmatize(q) for q in result if q not in stops]
-        o_w = [lemmatize(o) for o in options if o not in stops]
-
-        if q_w and len(o_w) > 1:
-            scores = []
-            for o in o_w:
-                score = 0
-                for i, q in enumerate(q_w, start = 0):
-                    score += np.sqrt(1 + len(q_w) - i) * (embedding_model.wv.similarity(o, q) ** 2)
-                scores.append((o, score))
-            winner = max(scores, key = lambda pair: pair[1])
-            idx = scores.index(winner)
-            new_word = options[idx]
-
-        del query[0]
-        query.append(new_word)
-        result.append(new_word)
-
-        if new_word in {'?', '!', '.'}:
-            sentences += 1
-            at_sentence = True
-        i += 1
-        if i == length:
-            length_reached = True
-    return ' '.join(result)
-
-
-def cap_f(match: re.Match):
-    return match.groups()[0] + ' ' + match.groups()[1].upper()
+    return ' '.join(tokens)
 
 
 def make_argparser() -> argparse.ArgumentParser:
     argparser = argparse.ArgumentParser()
     return argparser
 
-
 def main():
     argparser = make_argparser()
     args = argparser.parse_args()
 
     ngram = compress_pickle.load(osp.join(MODEL_PATH, 'three_gram.gz'))
-    ic('loaded')
 
     starters = [
         'you have to try',
@@ -116,22 +99,29 @@ def main():
         'i see now they',
         'i tried to find',
     ]
+
+    simple_subs = [
+        (' \' ', ' '),
+        (' " ', ' '),
+        (' \'.', '.'),
+        (' ".', '.'),
+        ('$ ', '$'),
+        (' i ', ' I '),
+        (' i\'', ' I\''),
+    ] + [(' ' + char, char) for char in special_chars]
     
-    cap_ptn = re.compile(r'([.!?]) (\w)')
-    loose_num_ptn = re.compile(r'[.] \d+[.]')
-    usr = ''
-    while not usr:
-        resp = synth_text((random.choice(starters)).lower(), ngram, 3, 50)
-        for special in specials:
-            resp = resp.replace(f' {special}', special)
-        resp = resp.replace(f'$ ', '$')
-        resp = resp.replace(' \' ', ' ').replace(' " ', ' ').replace(' \'.', '.').replace(' ".', '.')
-        resp = re.sub(cap_ptn, cap_f, resp)
-        resp = re.sub(cap_ptn, cap_f, resp)
-        resp = re.sub(loose_num_ptn, '.', resp)
-        resp = resp[0].upper() + resp[1:]
+    re_subs = [
+        (re.compile(r'([.!?]) (\w)'), lambda m: m.groups()[0] + ' ' + m.groups()[1].upper()),
+        (re.compile(r'[.!?] \d+[.]'), '.'),
+        (re.compile(r'^(.)'), lambda m: m.groups()[0].upper()),
+    ]
+
+    while True:
+        resp = synth_text((random.choice(starters)).lower(), ngram, 3, 150)
+        for text, sub in simple_subs: resp = resp.replace(text, sub)
+        for ptn, sub in re_subs: resp = re.sub(ptn, sub, resp)
         print(resp)
-        usr = input('\nContinue?')
+        if input('\n') in {'exit', 'exit()', 'quit', 'quit()'}: break
 
 
 if __name__ == '__main__':

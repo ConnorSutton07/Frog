@@ -11,6 +11,7 @@ from unidecode import unidecode
 import multiprocessing as mp
 from collections import defaultdict
 from icecream import ic
+import string; alphabet = set(string.ascii_lowercase)
 
 from core.utils import save_object, get_mem_usage
 from core.ngram import build_ngram
@@ -22,7 +23,9 @@ CORPUS_PATH = osp.join(PATH, 'corpus')
 MODEL_PATH = osp.join(PATH, 'model')
 
 
-invalid_ptn = re.compile(r'([][/&^#@~=+\\|}{()]|https?|www[.]|[.]html|reddit|tl;?dr)')
+invalid_ptn = re.compile(r'([][/&^#@~=+\\|}{()]|https?|www[.]|[.]html|reddit|tl;?dr|^edit)')
+valid_one_char = {'a', 'i', 'u'}
+valid_one_char_comp = alphabet - valid_one_char
 
 to_remove = {
     re.compile(r'[\n<>*`]'),
@@ -47,7 +50,7 @@ def process_doc(doc_path: str) -> tuple[str, list[list[str]], dict[str, int], li
         for ptn, repl in to_replace.items(): raw_sent = re.sub(ptn, repl, raw_sent)
         words = word_tokenize(raw_sent)
         if not invalid_ptn.findall(' '.join(words)):
-            lowered = [word.lower() for word in words]
+            lowered = [lowered for word in words if len(lowered := word.lower()) > 1 or lowered not in valid_one_char_comp]
             for word in lowered: vocab[word] += 1
             sent_tokens.append(lowered)
 
@@ -97,9 +100,10 @@ def main():
 
     # generate ngram, currently single process due to potential memory constraints
     pos_vals = [pair[1] for pair in all_pos_tokens]
-    for i, prefix in (pbar := tqdm({(3, 'three'), (4, 'four')}, total = 4, desc = 'generating ngrams')):
-        save_object(build_ngram(all_tokens, i), osp.join(MODEL_PATH, f'{prefix}_gram')); pbar.update()
-        save_object(build_ngram(pos_vals, i), osp.join(MODEL_PATH, f'{prefix}_gram_pos')); pbar.update()
+    with tqdm(total = 4, desc = 'generating ngrams') as pbar:
+        for i, prefix in {(3, 'three'), (4, 'four')}:
+            save_object(build_ngram(all_tokens, i), osp.join(MODEL_PATH, f'{prefix}_gram')); pbar.update()
+            save_object(build_ngram(pos_vals, i), osp.join(MODEL_PATH, f'{prefix}_gram_pos')); pbar.update()
 
     # train embeddings
     lemmatized = [[lemmatize(token) for token in sent_tokens if token not in stopwords] for sent_tokens in tqdm(all_sent_tokens, desc = 'lemmatizing')]
