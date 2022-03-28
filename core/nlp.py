@@ -31,29 +31,31 @@ WORD_TOKENIZER = TweetTokenizer(
 def word_tokenize(text: str) -> list[str]:
     return WORD_TOKENIZER.tokenize(text)
 
+
 class EmbeddingProgress(CallbackAny2Vec):
     def __init__(self, max_epochs) -> None:
         super().__init__()
         self.epoch = 0
         self.pbar = tqdm(total = max_epochs, desc = 'generating embeddings')
 
-    def on_epoch_end(self, _):
+    def on_epoch_end(self, _) -> None:
         self.pbar.update()
         self.epoch += 1
     
-    def on_train_end(self, _):
+    def on_train_end(self, _) -> None:
         del self.pbar
 
 
 def embeddings(sent_tokens: list[list[str]]) -> FastText:
+    epochs = 10
     return FastText(
         sent_tokens,
-        sample = 0.001,
-        vector_size = 100,
-        window = 5,
-        epochs = 5,
-        min_count = 10,
+        sample = 0.001,  # default
+        vector_size = 100,  # default
+        window = 5,  # default
+        epochs = epochs,
+        min_count = 5,  # default
         workers = floor(0.75 * cpu_count()),
         sg = 1,
-        callbacks = (EmbeddingProgress(5),)
+        callbacks = (EmbeddingProgress(epochs),)
     )

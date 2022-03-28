@@ -1,27 +1,28 @@
 """
-TODO still sometimes crashes
+TODO still sometimes cycles which is not good
 """
 
 import os.path as osp, os
 import argparse
 from icecream import ic
 from gensim.models import FastText
-from tqdm import tqdm
 import random
-from wordsegment import segment as wordsegment, load as ws_load; ws_load()
 from nltk.corpus import words; en_words = set(words.words())
 import numpy as np
+from num2words import num2words
 import re
 
 from core.nlp import lemmatize, stopwords
-from core.utils import get_mem_usage, load_object
+from core.utils import load_object
 
 
 PATH = osp.dirname(osp.realpath(__file__))
 MODEL_PATH = osp.join(PATH, 'model')
 
-term_chars = {'?', '!', '.', ';', ':'}
-special_chars = {'.', ',', '!', '?', ':', ';', '%'}
+term_chars = {'?', '!', '.', ';', ':'}  # these terminate a psuedo sentence
+special_chars = {'.', ',', '!', '?', ':', ';', '%', '$'}  # special chars
+special_chars_rhs = {'.', ',', '!', '?', ':', ';', '%'}  # special chars
+special_chars_lhs = {'$'}  # special chars
 extra_stops = stopwords | special_chars
 word_match = re.compile(r'[\'a-zA-Z]+')
 
@@ -30,51 +31,40 @@ def word_sim(w1: str, w2: str):
     return embedding_model.wv.similarity(w1, w2)
 
 
-def score_fn(i: int, size_r: int, o: str, r: str):
-    return np.sqrt(1 + size_r - i) * (word_sim(o, r) ** 2)
+def option_relevance(i: int, size_r: int, o: str, r: str):
+    # Helps pick which option to pick in word synth
+    # i: index of meaningful word already generated, max = size_r - 1
+    # size_r: number of meaningful already generated words
+    # o: current option
+    # r: current meaningful word
+    percent_remaining = (size_r - i) / size_r  # in (0, 1]
+    similarity = word_sim(o, r)  # in [0, 1]
+    return np.sqrt(percent_remaining) * (similarity ** 2)  # words generated first are more important, score in [0, 1]
 
-def synth_text(query: str, model: dict, n: int, target_length: int, n_samples: int = 15) -> str:
+
+def synth_text(query: str, model: dict, n: int, target_length: int, n_samples: int = 10) -> str:
+    if n < 2: raise ValueError('n must be at least 2')
     result_tokens = query.split(' ')
-    sent_len = 0
-    while len(result_tokens) < target_length or (result_tokens[-1] not in term_chars - {';', ':'} and len(result_tokens) < 2 * target_length):
-        key = ' '.join(result_tokens[-n:])
-        try:
-            options = list({model[key].sample() for _ in range(n_samples)})
-            if len(options) > 1 and result_tokens[-1] in options:
-                options.remove(result_tokens[-1])
-            if result_tokens[-1] in term_chars:
-                for char in term_chars:
-                    if char in options and len(options) > 1:
-                        options.remove(char)
-        except Exception as e:
-            print(query)
-            raise e
-        r_words = [lemmatize(r) for r in result_tokens if r not in extra_stops]  # have so far
-        o_words = [lemmatize(o) for o in options if o not in extra_stops]  # could add next
+    #sent_len = 0
+    while len(result_tokens) < target_length or (result_tokens[-1] not in term_chars - {';', ':'} and len(result_tokens) < 1.5 * target_length):
+        # while (we haven't generated enough words) OR (we have generated enough words but we have not completed current sentence yet AND that sentence isn't too long)
+        dist = model[' '.join(result_tokens[-n:])]
+        options = list({dist.sample() for _ in range(n_samples)})
+        r_words = [lemmatize(r) for r in result_tokens if r not in extra_stops]  # meaningful words generated so far
+        o_words = [lemmatize(o) for o in options]  # could add these words next
 
         if r_words and len(o_words) > 1:  # we have some results and have multiple options
-            scores = [(o, sum([score_fn(i, len(r_words), o, r) for i, r in enumerate(r_words)])) for o in o_words]
-            new_word = options[scores.index(max(scores, key = lambda pair: (lambda o, score: score)(*pair)))]
-        else:
-            try:
-                new_word = options.pop()
-            except Exception as e:
-                print(query)
-                raise e
-        if new_word in term_chars: sent_len = 0
-        else: sent_len += 1
+            # for each option, lets compute its average relevance score across all the meaningful words generated so far
+            relevance_scores = [sum([option_relevance(i, len(r_words), o, r) for i, r in enumerate(r_words)]) / len(r_words) for o in o_words]
+            # randomly pick option, based on 
+            weights = [score * dist.get_weight(option) for option, score in zip(options, relevance_scores)]
+            new_word = random.choices(options, weights, k = 1).pop()
+        else: new_word = options.pop()
+        #if new_word in term_chars: sent_len = 0  # reset current sentence length
+        #else: sent_len += 1
         result_tokens.append(new_word)
         
-    tokens = []
-    for token in result_tokens:
-        segmented = wordsegment(token)
-        if word_match.fullmatch(token) and all([segment in en_words and len(segment) > 2 for segment in segmented]):
-            for segment in segmented:
-                tokens.append(segment)
-        else:
-            tokens.append(token)
-
-    return ' '.join(tokens)
+    return ' '.join(result_tokens)
 
 
 def make_argparser() -> argparse.ArgumentParser:
@@ -85,9 +75,9 @@ def main():
     argparser = make_argparser()
     args = argparser.parse_args()
 
-    n, prefix = {3: (3, 'three'), 4: (4, 'four')}[3]  # change ngram n here!
+    n = 3
 
-    ngram = load_object(osp.join(MODEL_PATH, f'{prefix}_gram.gz'))
+    ngram = load_object(osp.join(MODEL_PATH, f'{num2words(n)}_gram.gz'))
 
     starters = [
         'you have to try',
@@ -110,27 +100,30 @@ def main():
     ]
 
     simple_subs = [
+        ('"', ''),
         (' \' ', ' '),
+        ('\' ', ' '),
+        (' \'', ' '),
         (' " ', ' '),
         (' \'.', '.'),
         (' ".', '.'),
-        ('$ ', '$'),
         (' i ', ' I '),
         (' i\'', ' I\''),
-    ] + [(' ' + char, char) for char in special_chars]
+    ] + [(' ' + char, char) for char in special_chars_rhs] #+ [(char + ' ', char) for char in special_chars_lhs]
     
     re_subs = [
+        (re.compile(r' {2,}'), ' '),
         (re.compile(r'([.!?]) (\w)'), lambda m: m.groups()[0] + ' ' + m.groups()[1].upper()),
         (re.compile(r'[.!?] \d+[.]'), '.'),
         (re.compile(r'^(.)'), lambda m: m.groups()[0].upper()),
     ]
 
     while True:
-        resp = synth_text((random.choice(starters)).lower(), ngram, n, 150)
-        for text, sub in simple_subs: resp = resp.replace(text, sub)
-        for ptn, sub in re_subs: resp = re.sub(ptn, sub, resp)
-        if resp[-1] not in term_chars: resp += '...'
-        print(resp)
+        synthesized = synth_text((random.choice(starters)).lower(), ngram, n, 150)
+        for text, sub in simple_subs: synthesized = synthesized.replace(text, sub)
+        for ptn, sub in re_subs: synthesized = re.sub(ptn, sub, synthesized)
+        if synthesized[-1] not in term_chars: synthesized += '...'
+        print(synthesized)
         if input() in {'exit', 'exit()', 'quit', 'quit()'}: break
 
 
