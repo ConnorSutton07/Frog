@@ -1,6 +1,6 @@
 reddit_credentials.json
 .DS_Store
-model/
+model/*
 
 !.gitkeep
 

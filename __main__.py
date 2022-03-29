@@ -44,10 +44,10 @@ def option_relevance(i: int, size_r: int, o: str, r: str):
     similarity = word_sim(o, r)  # in [0, 1]
     return np.log(dist_from_curr + 2) * similarity ** 2  # words generated first are more important, score in [0, 1]
 
-def relevance_score(o, r_words):
-    return np.sqrt(sum([option_relevance(i, len(r_words), o, r) for i, r in enumerate(r_words)]) / len(r_words) ** 2)
+def relevance_score(o, r_words, max_window: int = 30):
+    return np.sqrt(sum([option_relevance(i, len(r_words), o, r) for i, r in enumerate(r_words[:max_window])]) / len(r_words) ** 2)
 
-def synth_text(query: str, model: dict, n: int, target_length: int, n_samples: int = 10) -> str:
+def synth_text(query: str, model: dict, n: int, target_length: int, n_samples: int = 25) -> str:
     if n < 2: raise ValueError('n must be at least 2')
     result_tokens = query.split(' ')
     #sent_len = 0
@@ -126,7 +126,7 @@ def main():
 
     while True:
         query = random.choice(starters)
-        synthesized_tokens = synth_text((query).lower(), ngram, n, 150)
+        synthesized_tokens = synth_text((query).lower(), ngram, n, 100)
         synthesized = ' '.join(synthesized_tokens)
         for text, sub in simple_subs: synthesized = synthesized.replace(text, sub)
         for ptn, sub in re_subs: synthesized = re.sub(ptn, sub, synthesized)
