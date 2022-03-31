@@ -12,6 +12,7 @@ from tqdm import tqdm
 from nltk.corpus import words; en_words = set(words.words())
 from nltk.tokenize import word_tokenize
 import numpy as np
+import pyttsx3
 from num2words import num2words
 import re
 
@@ -21,6 +22,9 @@ from core.utils import load_object, irange, Timer
 print('Instantiating resources...')
 PATH = osp.dirname(osp.realpath(__file__))
 MODEL_PATH = osp.join(PATH, 'model')
+
+speech_engine = pyttsx3.init()
+speech_engine.setProperty('rate', 200)
 
 term_chars = {'?', '!', '.', ';', ':'}  # these terminate a psuedo sentence
 special_chars = {'.', ',', '!', '?', ':', ';', '%', '$'}
@@ -52,7 +56,7 @@ def score_result(
     target_set = set(targets)
     target_count = {t: targets.count(t) for t in target_set}  # how important is each thing user might want
     synth_anchor_count = {t: synth_anchors.count(t) for t in target_set}  # how many times did we produce each thing user might want
-    relevance = sum([tc * synth_anchor_count[t] for t, tc in target_count.items() if t in synth_anchor_count]) / len(target_set)  # compares each thing user wants vs how often it occurred
+    relevance = sum([tc * synth_anchor_count[t] for t, tc in target_count.items() if t in synth_anchor_count]) / (len(target_set) or 1)  # compares each thing user wants vs how often it occurred
     presence = sum([synth_anchors.count(a) for a in anchors])
     return relevance_weight * relevance + presence_weight * presence
     # return sum([sum([word_sim(a, s) ** 2 for a in anchors]) / len(anchors) for s in synth_anchors]) / len(synth_anchors)
@@ -75,7 +79,7 @@ def relevance_score(
     ) -> float:
     target_r_words = r_words[-max_window:]
     transition_term = sum([transition_score(i, r_words, option, r) for i, r in enumerate(target_r_words)]) / len(target_r_words)
-    anchor_term = sum([word_sim(option, anchor) for anchor in anchors]) / len(anchors)
+    anchor_term = sum([word_sim(option, anchor) for anchor in anchors]) / (len(anchors) or 1)
     return transition_weight * transition_term + anchor_weight * anchor_term
 
 class GramNotFoundError(Exception): pass
@@ -119,8 +123,9 @@ def synth_text(
 def make_argparser() -> argparse.ArgumentParser:
     argparser = argparse.ArgumentParser(description = 'talk with The Frog')
     argparser.add_argument('--nval', '-n', default = 3, choices = {2, 3, 4, 5}, help = 'n value for ngram model')
-    argparser.add_argument('--resp_size', '-r', default = 175, help = 'roughly number of terms per repsonse')
+    argparser.add_argument('--resp_size', '-r', default = 150, help = 'roughly number of terms per repsonse')
     argparser.add_argument('--samples', '-s', default = 15, help = 'number of responses to generate before ranking')
+    argparser.add_argument('--talk', '-t', action = 'store_const', const=True, help = 'perform basic text to speech on result')
     return argparser
 
 def main():
@@ -129,6 +134,7 @@ def main():
     n: int = args.nval
     resp_size: int = args.resp_size
     n_samples: int = args.samples
+    speak: bool = bool(args.talk)
 
     print('Loading objects...')
     ngram: dict[str, 'core.ngram.FreqDistribution'] = load_object(osp.join(MODEL_PATH, f'{num2words(n)}_gram.gz'))
@@ -181,6 +187,9 @@ def main():
         print(final_synth)
         ic(i, float(t))
         print()
+        if speak:
+            speech_engine.say(final_synth)
+            speech_engine.runAndWait()
     print('Deallocating...')
 
 if __name__ == '__main__':
