@@ -122,7 +122,7 @@ def synth_text(
 
 def make_argparser() -> argparse.ArgumentParser:
     argparser = argparse.ArgumentParser(description = 'talk with The Frog')
-    argparser.add_argument('--nval', '-n', default = 3, choices = {2, 3, 4, 5}, help = 'n value for ngram model')
+    argparser.add_argument('--nval', '-n', type = int, default = 3, choices = {2, 3, 4, 5}, help = 'n value for ngram model')
     argparser.add_argument('--resp_size', '-r', default = 150, help = 'roughly number of terms per repsonse')
     argparser.add_argument('--samples', '-s', default = 15, help = 'number of responses to generate before ranking')
     argparser.add_argument('--talk', '-t', action = 'store_const', const=True, help = 'perform basic text to speech on result')
