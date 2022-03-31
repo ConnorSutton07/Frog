@@ -16,6 +16,13 @@ def get_mem_usage(precision: int = 2) -> float:
     return round(process.memory_info().rss / 1000000, precision)
 
 
+def irange(start = 0):
+    i = start
+    while True:
+        yield i
+        i += 1
+
+
 class Timer:
     """This context manager allows timing blocks of code."""
     def __init__(self):

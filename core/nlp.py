@@ -18,6 +18,7 @@ LEMMATIZER = WordNetLemmatizer()
 @lru_cache(maxsize=50000)
 def lemmatize(target: str) -> str:
     return LEMMATIZER.lemmatize(target)
+lemmatize('')  # loads model when running for first time
 
 stopwords = set(nltk_stops.words('english'))
 

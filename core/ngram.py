@@ -10,14 +10,13 @@ from icecream import ic
 
 
 class FreqDistribution:
-    def __init__(self, choices: list[Any], smoothing: float = 2.5) -> None:
+    def __init__(self, choices: list[Any], smoothing: float = 5) -> None:
         assert smoothing > 1  # higher smoothing makes less common words more likely
         self.elements, raw_weights = list(zip(*[(choice, log(choices.count(choice) + 1, smoothing)) for choice in set(choices)]))
         self.weights = [weight / max(raw_weights) for weight in raw_weights]  # now in (0, 1]
 
 
     def sample(self) -> Any:
-        # test w generator
         return random.choices(self.elements, self.weights, k = 1).pop()
 
     def get_weight(self, element: Any) -> float:

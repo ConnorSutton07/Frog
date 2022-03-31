@@ -105,7 +105,7 @@ def main() -> None:
 
         # generate ngram, currently single process due to potential memory constraints
         pos_vals = [pair[1] for pair in all_pos_tokens]
-        ngram_sizes = {3, 4}
+        ngram_sizes = {2, 3, 4, 5}
         with tqdm(total = 2 * len(ngram_sizes), desc = 'generating ngrams') as pbar:
             for i in ngram_sizes:
                 prefix = num2words(i)
