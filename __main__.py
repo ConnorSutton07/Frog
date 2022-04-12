@@ -92,13 +92,18 @@ def synth_text(
         anchors: list[str],
         relevance_weight: float = 1,
         liklihood_weight: float = 1,
-        n_samples: int = 50
+        n_samples: int = 20
     ) -> list[str]:
     # higher n_samples -> higher probability of semantic matching
+    log = """"""
     if n < 2: raise ValueError('n must be at least 2')
     result_tokens = word_tokenize(query)
+
+    log += f"Tokenized Query: {result_tokens} \n\n"
     #sent_len = 0  # could use this to prevent run ons
     while len(result_tokens) < target_length or (result_tokens[-1] not in term_chars - {';', ':'} and len(result_tokens) < 1.5 * target_length):
+        log += "----------------------\n"
+        log += f"Result: {' '.join(result_tokens)} \n\n" 
         # while (we haven't generated enough words) OR (we have generated enough words but we have not completed current sentence yet AND that sentence isn't too long)
         try: dist = model[' '.join(result_tokens[-n:])]  # can rarely sometimes raise error... for some reason? TODO
         except KeyError: raise GramNotFoundError()
@@ -109,13 +114,40 @@ def synth_text(
         if r_words and len(o_words) > 1:  # we have some results and have multiple options
             # for each option, lets compute its relevance score across all the meaningful words generated so far
             relevance_scores = [relevance_score(o, r_words, anchors) for o in o_words]
+
+            options_log = list(zip(options, relevance_scores))
+            options_log.sort(key = lambda x: x[1], reverse = True)
+            log += "Options: "
+            for i, x in enumerate(options_log): 
+                log += f"{x[0]}, {round(x[1], 3)}"
+                if i != 0 and i % 5 == 0: log += "\n"
+                elif i != len(options_log) - 1: log += " | "
+            log += "\n\n"
+
+            #log += "Options :" + " | ".join(options_log) + "\n"
             # randomly pick option, based on both original liklihood and on relevance score
             weights = [relevance_weight * score + liklihood_weight * dist.get_weight(option) for option, score in zip(options, relevance_scores)]
+
+            options_log = list(zip(options, weights))
+            options_log.sort(key = lambda x: x[1], reverse = True)
+            log += "Weighted options: "
+            for i, x in enumerate(options_log): 
+                log += f"{x[0]}, {round(x[1], 3)}"
+                if i != 0 and i % 5 == 0: log += ",\n"
+                elif i != len(options_log) - 1: log += " | "
+            log += "\n\n"
+
+
             new_word = random.choices(options, weights, k = 1).pop()
-        else: new_word = options.pop()
+            log += f"Chosen word: {new_word}\n\n"
+        else: 
+            new_word = options.pop()
+            log += f"Only one option: {new_word}\n\n"
         #if new_word in term_chars: sent_len = 0  # reset current sentence length
         #else: sent_len += 1
         result_tokens.append(new_word)
+    
+    with open('log.txt', 'w') as f: f.write(log)
         
     return result_tokens
 
@@ -124,7 +156,7 @@ def make_argparser() -> argparse.ArgumentParser:
     argparser = argparse.ArgumentParser(description = 'talk with The Frog')
     argparser.add_argument('--nval', '-n', type = int, default = 3, choices = {2, 3, 4, 5}, help = 'n value for ngram model')
     argparser.add_argument('--resp_size', '-r', default = 150, help = 'roughly number of terms per repsonse')
-    argparser.add_argument('--samples', '-s', default = 15, help = 'number of responses to generate before ranking')
+    argparser.add_argument('--samples', '-s', default = 1, help = 'number of responses to generate before ranking')
     argparser.add_argument('--talk', '-t', action = 'store_const', const=True, help = 'perform basic text to speech on result')
     return argparser
 
