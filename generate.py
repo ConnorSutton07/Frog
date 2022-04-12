@@ -49,7 +49,7 @@ def process_doc(doc_path: str) -> tuple[str, list[list[str]], dict[str, int], li
     vocab_freq: dict[str: int] = defaultdict(int)
     while raw_sents:
         raw_sent: str = raw_sents.pop(0)
-        for ptn in to_remove: raw_sent = re.sub(ptn, '', raw_sent)
+        for ptn in to_remove: raw_sent = re.sub(ptn, ' ', raw_sent)
         for ptn, repl in to_replace.items(): raw_sent = re.sub(ptn, repl, raw_sent)
         words: list[str] = word_tokenize(raw_sent)
         if not invalid_ptn.findall(raw_sent):
