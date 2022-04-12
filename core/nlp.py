@@ -12,10 +12,9 @@ from gensim.models.callbacks import CallbackAny2Vec
 from math import floor
 from psutil import cpu_count
 from tqdm import tqdm
-
 LEMMATIZER = WordNetLemmatizer()
 
-@lru_cache(maxsize=50000)
+@lru_cache(maxsize=2**15)
 def lemmatize(target: str) -> str:
     return LEMMATIZER.lemmatize(target)
 lemmatize('')  # loads model when running for first time
@@ -29,10 +28,10 @@ WORD_TOKENIZER = TweetTokenizer(
     match_phone_numbers = False,
 )
 
+
 def word_tokenize(text: str) -> list[str]:
     return WORD_TOKENIZER.tokenize(text)
-
-
+    
 class EmbeddingProgress(CallbackAny2Vec):
     def __init__(self, max_epochs) -> None:
         super().__init__()

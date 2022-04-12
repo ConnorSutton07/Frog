@@ -49,7 +49,7 @@ def process_doc(doc_path: str) -> tuple[str, list[list[str]], dict[str, int], li
     vocab_freq: dict[str: int] = defaultdict(int)
     while raw_sents:
         raw_sent: str = raw_sents.pop(0)
-        for ptn in to_remove: raw_sent = re.sub(ptn, '', raw_sent)
+        for ptn in to_remove: raw_sent = re.sub(ptn, ' ', raw_sent)
         for ptn, repl in to_replace.items(): raw_sent = re.sub(ptn, repl, raw_sent)
         words: list[str] = word_tokenize(raw_sent)
         if not invalid_ptn.findall(raw_sent):
@@ -63,12 +63,14 @@ def process_doc(doc_path: str) -> tuple[str, list[list[str]], dict[str, int], li
 
 def make_argparser() -> argparse.ArgumentParser:
     argparser = argparse.ArgumentParser()
+    argparser.add_argument('--stopwords', type = bool, default = False, help = 'whether to include stopwords ')
     return argparser
 
 
 def main() -> None:
     argparser = make_argparser()
     args = argparser.parse_args()
+    add_stopwords = args.stopwords
     doc_paths = {osp.join(CORPUS_PATH, doc) for doc in os.listdir(CORPUS_PATH) if doc.endswith('.txt')}
 
     all_vocab_freq: dict[str, int] = defaultdict(int)
@@ -113,14 +115,17 @@ def main() -> None:
                 save_object(build_ngram(pos_vals, i), osp.join(MODEL_PATH, f'{prefix}_gram_pos')); pbar.update()
 
         # train embeddings
-        lemmatized = [[lemmatize(token) for token in sent_tokens if token not in stopwords] for sent_tokens in tqdm(all_sent_tokens, desc = 'lemmatizing')]
+        stopword_suffix = "_with_stopwords" if stopwords else ""
+        if stopwords:
+            lemmatized = [[lemmatize(token) for token in sent_tokens] for sent_tokens in tqdm(all_sent_tokens, desc = 'lemmatizing')]
+        else:
+            lemmatized = [[lemmatize(token) for token in sent_tokens if token not in stopwords] for sent_tokens in tqdm(all_sent_tokens, desc = 'lemmatizing')]
         embedding_model = embeddings(lemmatized)
-        embedding_model.save(osp.join(MODEL_PATH, 'embeddings_l.model'))
+        embedding_model.save(osp.join(MODEL_PATH, f'embeddings_l{stopword_suffix}.model'))
     
     # sentiment analysis?
     print()
     print(f'Total time elapsed: {timedelta(seconds = float(timer))}')
-
 
 if __name__ == '__main__':
     main()

@@ -102,8 +102,8 @@ def synth_text(
     log += f"Tokenized Query: {result_tokens} \n\n"
     #sent_len = 0  # could use this to prevent run ons
     while len(result_tokens) < target_length or (result_tokens[-1] not in term_chars - {';', ':'} and len(result_tokens) < 1.5 * target_length):
-        log += "----------------------\n"
-        log += f"Result: {' '.join(result_tokens)} \n\n" 
+        log += "=" * 100 + "\n"
+        log += f"Result: ...{' '.join(result_tokens[-5:])} \n\n" 
         # while (we haven't generated enough words) OR (we have generated enough words but we have not completed current sentence yet AND that sentence isn't too long)
         try: dist = model[' '.join(result_tokens[-n:])]  # can rarely sometimes raise error... for some reason? TODO
         except KeyError: raise GramNotFoundError()
@@ -117,11 +117,10 @@ def synth_text(
 
             options_log = list(zip(options, relevance_scores))
             options_log.sort(key = lambda x: x[1], reverse = True)
-            log += "Options: "
+            log += "Options: \n"
+            log += '-' * 30 + '\n'
             for i, x in enumerate(options_log): 
-                log += f"{x[0]}, {round(x[1], 3)}"
-                if i != 0 and i % 5 == 0: log += "\n"
-                elif i != len(options_log) - 1: log += " | "
+                log += f"{x[0]}, \t\t {round(x[1], 3)}\n"
             log += "\n\n"
 
             #log += "Options :" + " | ".join(options_log) + "\n"
@@ -130,11 +129,10 @@ def synth_text(
 
             options_log = list(zip(options, weights))
             options_log.sort(key = lambda x: x[1], reverse = True)
-            log += "Weighted options: "
+            log += "Weighted options: \n"
+            log += '-' * 30 + '\n'
             for i, x in enumerate(options_log): 
-                log += f"{x[0]}, {round(x[1], 3)}"
-                if i != 0 and i % 5 == 0: log += ",\n"
-                elif i != len(options_log) - 1: log += " | "
+                log += f"{x[0]}, \t\t {round(x[1], 3)}\n"
             log += "\n\n"
 
 
@@ -148,7 +146,6 @@ def synth_text(
         result_tokens.append(new_word)
     
     with open('log.txt', 'w') as f: f.write(log)
-        
     return result_tokens
 
 
